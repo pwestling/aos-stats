@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Cogsmith"
+date:   2020-12-05
+source: Wahapedia
+tags: [cities-of-sigmar]
+---
+
+**Cogsmith**
+
+**Stat Block**
+```
+5/5 Cogsmith
+```
+
+```
+[56f442]M     W     B     Sa    [-]
+4     5     7     5     
+[e85545]Weapons[-]
+[c6c930]Grudge-raker[-]
+16"    A:D3   H:4+   W:3+   R:-1   D:1   
+[c6c930]Duardin Pistols[-]
+8"     A:2    H:4+   W:3+   R:-1   D:1   
+[c6c930]Cog Axe[-]
+1"     A:4    H:3+   W:4+   R:-    D:1   
+[c6c930]Gun Butt[-]
+1"     A:1    H:4+   W:4+   R:-    D:1   
+```
+
+

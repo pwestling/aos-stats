@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Basilisk"
+date:   2020-12-05
+source: Wahapedia
+tags: [orruk-warclans]
+---
+
+**Basilisk**
+
+**Stat Block**
+```
+10/10 Basilisk
+```
+
+```
+[56f442]M     W     B     Sa    [-]
+*     10    5     5     
+[e85545]Weapons[-]
+[c6c930]Acidic Spittle[-]
+10"    A:1    H:5+   W:*    R:-1   D:1   
+[c6c930]Venomous Bite[-]
+2"     A:1    H:3+   W:3+   R:*    D:3   
+[c6c930]Clutching Claws[-]
+1"     A:6    H:4+   W:4+   R:-1   D:1   
+```
+
+

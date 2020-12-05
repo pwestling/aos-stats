@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Bloodwrack Shrine"
+date:   2020-12-05
+source: Wahapedia
+tags: [daughters-of-khaine]
+---
+
+**Bloodwrack Shrine**
+
+**Stat Block**
+```
+13/13 Bloodwrack Shrine
+```
+
+```
+[56f442]M     W     B     Sa    [-]
+*     13    8     5     
+[e85545]Weapons[-]
+[c6c930]Tail of Serpents[-]
+2"     A:D6   H:4+   W:4+   R:-    D:1   
+[c6c930]Whisperclaw[-]
+1"     A:4    H:4+   W:3+   R:-    D:1   
+[c6c930]Bloodwrack Spear[-]
+2"     A:2    H:3+   W:3+   R:-1   D:D3  
+[c6c930]Shrinekeepers’ Goadstaves[-]
+2"     A:*    H:3+   W:3+   R:-    D:1   
+```
+
+

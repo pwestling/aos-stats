@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Chimera"
+date:   2020-12-05
+source: Wahapedia
+tags: [beasts-of-chaos]
+---
+
+**Chimera**
+
+**Stat Block**
+```
+12/12 Chimera
+```
+
+```
+[56f442]M     W     B     Sa    [-]
+10    12    6     5     
+[e85545]Weapons[-]
+[c6c930]Avian Head[-]
+1"     A:3    H:3+   W:4+   R:*    D:D3  
+[c6c930]Draconic Head[-]
+1"     A:3    H:4+   W:4+   R:-1   D:2   
+[c6c930]Leonine Head[-]
+1"     A:3    H:4+   W:3+   R:-1   D:*   
+[c6c930]Mauling Claws[-]
+2"     A:6    H:4+   W:3+   R:-    D:1   
+```
+
+

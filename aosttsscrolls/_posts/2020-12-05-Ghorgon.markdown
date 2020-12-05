@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Ghorgon"
+date:   2020-12-05
+source: Wahapedia
+tags: [beasts-of-chaos]
+---
+
+**Ghorgon**
+
+**Stat Block**
+```
+14/14 Ghorgon
+```
+
+```
+[56f442]M     W     B     Sa    [-]
+*     14    7     5     
+[e85545]Weapons[-]
+[c6c930]Butchering Blades[-]
+2"     A:*    H:3+   W:3+   R:-1   D:3   
+[c6c930]Huge Slavering Maw[-]
+1"     A:1    H:4+   W:*    R:-1   D:D6  
+```
+
+

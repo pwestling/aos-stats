@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Tyrant"
+date:   2020-12-05
+source: Wahapedia
+tags: [ogor-mawtribes]
+---
+
+**Tyrant**
+
+**Stat Block**
+```
+8/8 Tyrant
+```
+
+```
+[56f442]M     W     B     Sa    [-]
+6     8     8     4     
+[e85545]Weapons[-]
+[c6c930]Ogor Pistols[-]
+12"    A:2    H:4+   W:3+   R:-1   D:D3  
+[c6c930]Thundermace[-]
+1"     A:3    H:3+   W:3+   R:-2   D:3   
+[c6c930]Beastskewer Glaive[-]
+3"     A:2    H:3+   W:3+   R:-1   D:D3  
+[c6c930]Gulping Bite[-]
+1"     A:1    H:3+   W:3+   R:-    D:1   
+```
+
+

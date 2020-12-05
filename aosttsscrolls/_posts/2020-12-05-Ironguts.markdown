@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Ironguts"
+date:   2020-12-05
+source: Wahapedia
+tags: [ogor-mawtribes]
+---
+
+**Ironguts**
+
+**Stat Block**
+```
+4/4 Irongut
+```
+
+```
+[56f442]M     W     B     Sa    [-]
+6     4     7     4     
+[e85545]Weapons[-]
+[c6c930]Mighty Bashing Weapon[-]
+2"     A:3    H:3+   W:3+   R:-1   D:3   
+[c6c930]Gulping Bite[-]
+1"     A:1    H:3+   W:3+   R:-    D:1   
+```
+
+

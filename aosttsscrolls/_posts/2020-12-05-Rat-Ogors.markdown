@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Rat Ogors"
+date:   2020-12-05
+source: Wahapedia
+tags: [skaventide]
+---
+
+**Rat Ogors**
+
+**Stat Block**
+```
+4/4 Rat Ogor
+```
+
+```
+[56f442]M     W     B     Sa    [-]
+6     4     5     5     
+[e85545]Weapons[-]
+[c6c930]Warpfire Gun[-]
+16"    A:1    H:5+   W:3+   R:-1   D:D3  
+[c6c930]Tearing Claws, Blades and Fangs[-]
+1"     A:4    H:4+   W:3+   R:-1   D:2   
+```
+
+

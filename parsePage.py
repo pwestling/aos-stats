@@ -2,25 +2,45 @@ import os
 import sys
 import re
 from bs4 import BeautifulSoup, NavigableString
+from datetime import datetime
+import inflect
 
 
 fname = sys.argv[1]
+faction = re.search(r"faction-indexes/([a-z-]+)", fname).group(1)
+post_dir = sys.argv[2]
 contents = open(fname, "r").read()
 
-def getstat(name):
-  match = re.search('ws'+name+'(?P<isvar>Ct)?">(?P<value>[0-9]+)?', contents)
+
+soup = BeautifulSoup(contents, features="html.parser")
+date = datetime.now().strftime("%Y-%m-%d")
+warscroll_name = str(soup.find("h3", class_="wsHeader").string)
+tagname = os.path.basename(fname)
+outname = os.path.join(post_dir,f"{date}-{tagname}.markdown")
+
+print(f"Writing warscroll for {warscroll_name} to {outname}")
+
+def getstat(name, append=""):
+  match = re.search('ws'+name+'(Ct)?">(?P<value>[0-9-]+)?(?P<aster><img[^>]*asterix[^>]*>)?', contents)
+  if not match:
+    print(f"File {fname} is a battalion")
+    exit(0)
   gd = match.groupdict()
-  if gd["isvar"]:
+  if gd["aster"]:
     return "*"
   else:
-    return gd["value"]
+    try:
+      int(gd["value"])
+      return gd["value"]+append
+    except:
+      return gd["value"]
 
 move = getstat("Move")
 wounds = getstat("Wounds")
 save = getstat("Save")
 brave = getstat("Bravery")
 
-soup = BeautifulSoup(contents, features="html.parser")
+
 target = soup.find("td", class_="wsHeaderCellName_RangedWeapons")
 if not target:
   target = soup.find("td", class_="wsHeaderCellName_MeleeWeapons")
@@ -64,6 +84,41 @@ weaponlines = []
 for weapon in weapons:
   weaponlines.append("[c6c930]{name}[-]\n{range:<6} A:{attacks:<4} H:{tohit:<4} W:{towound:<4} R:{rend:<4} D:{damage:<4}".format(**weapon))
 
-print("\n".join([statheader,stats, weaponheader, "\n".join(weaponlines)]))
+block = "\n".join([statheader,stats, weaponheader, "\n".join(weaponlines)])
 
-# template = "="[56f442]M    W    B     Sa[-]"&CHAR(10)&H13&I13&J13&K13&CHAR(10)&"[e85545]Weapons[-]"&CHAR(10)&TEXTJOIN(CHAR(10),TRUE,query(AOSWeapons!A:J,"select I where A = """&A13&""" label I ''"))&CHAR(10)&"[dc61ed]Abilities[-]"&CHAR(10)&TEXTJOIN(CHAR(10),TRUE,query(AOSAbilities!A:K,"select F where A = """&A13&""" label F ''")) 
+wound_count = f"{wounds}/{wounds}"
+try:
+  if int(wounds) <= 1:
+    wound_count = ""
+except:
+  pass
+p = inflect.engine()
+
+unit_name = p.singular_noun(warscroll_name)
+unit_name = unit_name if unit_name else warscroll_name
+
+template = f"""---
+layout: post
+title:  "{warscroll_name}"
+date:   {date}
+source: Wahapedia
+tags: [{faction}]
+---
+
+**{warscroll_name}**
+
+**Stat Block**
+```
+{wound_count} {unit_name}
+```
+
+```
+{block}
+```
+
+
+"""
+
+
+out = open(outname, "w")
+out.write(template)

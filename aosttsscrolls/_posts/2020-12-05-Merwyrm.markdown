@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Merwyrm"
+date:   2020-12-05
+source: Wahapedia
+tags: [orruk-warclans]
+---
+
+**Merwyrm**
+
+**Stat Block**
+```
+12/12 Merwyrm
+```
+
+```
+[56f442]M     W     B     Sa    [-]
+*     12    5     4     
+[e85545]Weapons[-]
+[c6c930]Chill Breath[-]
+8"     A:6    H:4+   W:3+   R:-1   D:1   
+[c6c930]Hideous Jaws[-]
+1"     A:3    H:3+   W:3+   R:*    D:D3  
+[c6c930]Powerful Tail[-]
+2"     A:1    H:4+   W:3+   R:-1   D:*   
+```
+
+

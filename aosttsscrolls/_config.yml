@@ -1,0 +1,23 @@
+# Site settings
+title: "AoS TTS Scrolls"
+author: "thehivemind5"
+description:
+  "A searchable list of stat blocks for Age of Sigmar TTS model descriptions"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://aosttsscrolls.net" # the base hostname & protocol for your site
+source-url: "https://github.com/pwestling/aos-stats/"
+permalink: "/:categories/:title"
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+# Site defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      category: "warscrolls"
