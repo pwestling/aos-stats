@@ -1,0 +1,389 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Wahapedia: Legion of Azgorh — Skullcracker War Engine (stats, options, wargear, abilities and keywords)." />
+<meta name="keywords" content="Wahapedia, Age of Sigmar, 2 edition, DAWI ZHARR, LEGION OF AZGORH, WAR MACHINE, SKULLCRACKER WAR ENGINE, CHAOS" />	
+<link rel="stylesheet" type="text/css" href="/aos/css/fonts.css">
+<link rel="stylesheet" href="/aos/css/main.css">
+<link rel="stylesheet" href="/aos/css/header.css">
+<link rel="stylesheet" href="/aos/css/profile.css">
+<link rel="stylesheet" href="/aos/css/noprint.css">
+<link rel="icon" type="image/png" href="/aos/img/favicon.png" />
+<link rel="stylesheet" type="text/css" href="/tooltipster/dist/css/tooltipster.bundle.min.css" />
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+<script type="text/javascript" src="/tooltipster-scrollableTip/tooltipster-scrollableTip.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-noir.min.css" />
+<link rel="stylesheet" href="/wh40k8ed/css/tooltipster-noir.css">
+<title>Skullcracker War Engine</title>
+<script type="text/javascript">
+$(document).ready(function(){
+	var data = localStorage.ShowFluff;
+	if (data == undefined) {data = 'true'; localStorage.ShowFluff = data};
+
+	var StrData; if (data == 'true') {StrData = true} else {StrData = false};
+	$('.ShowFluff').prop('checked', StrData);
+	ChangeShowFluff();
+
+	$('.ShowFluff').change(function () {
+      localStorage.ShowFluff = $(this).prop('checked');
+	   ChangeShowFluff();
+   });
+
+	function ChangeShowFluff() {
+	if (localStorage.ShowFluff == 'true')
+		{$('.ShowFluff').css('display', '');}
+	else
+		{$('.ShowFluff').css('display', 'none');}
+	}
+	var data = localStorage.ShowPitchedBattleProfile;
+	if (data == undefined) {data = 'true'; localStorage.ShowPitchedBattleProfile = data};
+
+	var StrData; if (data == 'true') {StrData = true} else {StrData = false};
+	$('.ShowPitchedBattleProfile').prop('checked', StrData);
+	ChangeShowPitchedBattleProfile();
+
+	$('.ShowPitchedBattleProfile').change(function () {
+      localStorage.ShowPitchedBattleProfile = $(this).prop('checked');
+	   ChangeShowPitchedBattleProfile();
+   });
+
+	function ChangeShowPitchedBattleProfile() {
+	if (localStorage.ShowPitchedBattleProfile == 'true')
+		{$('.ShowPitchedBattleProfile').css('display', '');}
+	else
+		{$('.ShowPitchedBattleProfile').css('display', 'none');}
+	}
+	var data = localStorage.ShowForgeWorldDatasheets;
+	if (data == undefined) {data = 'true'; localStorage.ShowForgeWorldDatasheets = data};
+
+	var StrData; if (data == 'true') {StrData = true} else {StrData = false};
+	$('.ShowForgeWorldDatasheets').prop('checked', StrData);
+
+	$('.ShowForgeWorldDatasheets').change(function () {
+      localStorage.ShowForgeWorldDatasheets = $(this).prop('checked');
+	   FilterSelect(false);
+	   FilterApply(false);
+   });
+
+
+function FilterSelect(IsInit) {};
+function FilterApply(IsInit) {
+var clFlags = '';
+var comma = '';
+var clAllFlags = '.sForgeWorld';
+if (localStorage.ShowForgeWorldDatasheets == 'false') {clFlags = clFlags + comma + '.sForgeWorld'};
+	$(clAllFlags).show();
+	$(clFlags).hide();
+UpdateTooltipster(IsInit);
+};
+FilterApply(true);
+
+function UpdateTooltipster(IsInit) {
+if (!IsInit) 
+	{
+	 $('.tooltip').tooltipster('destroy');
+	 $('.tooltipArmyList').tooltipster('destroy');
+	 if ($(window).width() >= 800) {
+	$('.no_tooltip').addClass('tooltip').removeClass('no_tooltip');
+	sidesArr = ['top', 'bottom', 'left', 'right'];
+	}
+else {
+	sidesArr = ['top', 'bottom'];
+	}
+;
+$('.tooltip_').addClass('tooltip').removeClass('tooltip_');
+$('.tooltip:hidden').addClass('tooltip_').removeClass('tooltip');
+$('.tooltip').tooltipster({
+functionBefore: function(instance, helper){
+$.each($.tooltipster.instances(), function(i, instance){
+	instance.close();
+});
+},
+plugins: ['sideTip', 'scrollableTip'],
+contentCloning: true,
+position: sidesArr,
+restoration: 'current',
+maxWidth: 600,
+viewportAware: true,
+repositionOnScroll: false,
+trigger: 'custom',
+triggerOpen: {
+    mouseenter: true,
+    tap: true
+},
+triggerClose: {
+    click: true,
+	 mouseleave: true,
+    tap: true
+}
+});
+$('.tooltipArmyList').tooltipster({
+functionBefore: function(instance, helper){
+$.each($.tooltipster.instances(), function(i, instance){
+	instance.close();
+});
+},
+plugins: ['sideTip', 'scrollableTip'],
+position: 'left',
+restoration: 'current',
+viewportAware: true,
+arrow: false,
+positionTracker: true,
+contentCloning: true,
+repositionOnScroll: false,
+maxWidth: 1100,
+trigger: 'custom',
+triggerOpen: {
+    mouseenter: true,
+    tap: true
+},
+triggerClose: {
+    click: true,
+	 mouseleave: true,
+    tap: true
+}
+});
+	}
+};
+if ($(window).width() >= 800) {
+	$('.no_tooltip').addClass('tooltip').removeClass('no_tooltip');
+	sidesArr = ['top', 'bottom', 'left', 'right'];
+	}
+else {
+	sidesArr = ['top', 'bottom'];
+	}
+;
+$('.tooltip_').addClass('tooltip').removeClass('tooltip_');
+$('.tooltip:hidden').addClass('tooltip_').removeClass('tooltip');
+$('.tooltip').tooltipster({
+functionBefore: function(instance, helper){
+$.each($.tooltipster.instances(), function(i, instance){
+	instance.close();
+});
+},
+plugins: ['sideTip', 'scrollableTip'],
+contentCloning: true,
+position: sidesArr,
+restoration: 'current',
+maxWidth: 600,
+viewportAware: true,
+repositionOnScroll: false,
+trigger: 'custom',
+triggerOpen: {
+    mouseenter: true,
+    tap: true
+},
+triggerClose: {
+    click: true,
+	 mouseleave: true,
+    tap: true
+}
+});
+$('.tooltipArmyList').tooltipster({
+functionBefore: function(instance, helper){
+$.each($.tooltipster.instances(), function(i, instance){
+	instance.close();
+});
+},
+plugins: ['sideTip', 'scrollableTip'],
+position: 'left',
+restoration: 'current',
+viewportAware: true,
+arrow: false,
+positionTracker: true,
+contentCloning: true,
+repositionOnScroll: false,
+maxWidth: 1100,
+trigger: 'custom',
+triggerOpen: {
+    mouseenter: true,
+    tap: true
+},
+triggerClose: {
+    click: true,
+	 mouseleave: true,
+    tap: true
+}
+});
+});
+$.tooltipster.setDefaults({
+arrow: true,
+delay: [200, 200],
+interactive: true,
+theme: ['tooltipster-noir', 'tooltipster-noir-customized']
+});
+</script>
+<script type="text/javascript">
+var touchHover = function() {
+    $('.tooltip').on('touchstart', function(e) {
+          e.preventDefault();
+          return false;
+    });
+};
+$(document).ready(function() { touchHover(); });
+</script>
+
+</head>
+<body>
+<!--noindex-->
+<div id="wrapper2">
+<div id="wrapper">
+<div class="noprint">
+<div style="position:relative"><a href="http://wahapedia.ru"><div class="SiteHeader_wrapper"><div class="SiteHeader"></div></div></a>
+<div class="NavWrapper_P">
+	<div class="NavDropdown_P">
+	<div class="NavBtn_P NavBtn_Datasheets">Warscrolls</div>
+	<div class="NavDropdown-content_P">
+		<span class="contents"><div class="armylist_header">Army List</div><span class="datasheetsCollated"><a href="/aos/factions/legion-of-azgorh/warscrolls.html">Warscrolls collated</a></span><div style="clear:both"></div><div class="NavColumns2"><div style="margin-bottom:8px;"><div class="BreakInsideAvoid"><div class="i5 ArmyType_line "><span style="color:#101010"><b class="BatRole">None</b></span></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Bull-Centaur-Renders" style="color:#101010">Bull Centaur Renders</a></div></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Fireglaives" style="color:#101010">Infernal Guard Fireglaives</a></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/K-daai-Fireborn" style="color:#101010">K’daai Fireborn</a></div></div><div style="margin-bottom:8px;"><div class="BreakInsideAvoid"><div class="i5 ArmyType_line "><span style="color:#101010"><b class="BatRole">Artillery</b></span></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Deathshrieker-Rocket-Launcher" style="color:#101010">Deathshrieker Rocket Launcher</a></div></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Dreadquake-Mortar" style="color:#101010">Dreadquake Mortar</a></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Magma-Cannon" style="color:#101010">Magma Cannon</a></div></div><div style="margin-bottom:8px;"><div class="BreakInsideAvoid"><div class="i5 ArmyType_line "><span style="color:#101010"><b class="BatRole">Battleline</b></span></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Ironsworn" style="color:#101010">Infernal Guard Ironsworn</a></div></div></div><div style="margin-bottom:8px;"><div class="BreakInsideAvoid"><div class="i5 ArmyType_line "><span style="color:#101010"><b class="BatRole">Leader</b></span></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Bull-Centaur-Taur-ruk" style="color:#101010">Bull Centaur Taur’ruk</a></div></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Daemonsmith" style="color:#101010">Daemonsmith</a></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Battle-Standard-Bearer" style="color:#101010">Infernal Guard Battle Standard Bearer</a></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Castellan" style="color:#101010">Infernal Guard Castellan</a></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Shar-tor-the-Executioner" style="color:#101010">Shar’tor the Executioner</a></div></div><div style="margin-bottom:8px;"><div class="BreakInsideAvoid"><div class="i5 ArmyType_line "><span style="color:#101010"><b class="BatRole">Leader, Behemoth</b></span></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Drazhoath-the-Ashen" style="color:#101010">Drazhoath the Ashen</a></div></div></div><div style="margin-bottom:8px;"><div class="BreakInsideAvoid"><div class="i5 ArmyType_line "><span style="color:#101010"><b class="BatRole">Behemoth</b></span></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Iron-Daemon-War-Engine" style="color:#101010">Iron Daemon War Engine</a></div></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Skullcracker-War-Engine" style="color:#101010">Skullcracker War Engine</a></div></div><div style="margin-bottom:8px;"><div class="BreakInsideAvoid"><div class="i5 ArmyType_line "><span style="color:#101010"><b class="BatRole">Warscroll Battalion</b></span></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Blackshard-Warhost" style="color:#101010">Blackshard Warhost</a></div></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Execution-Herd" style="color:#101010">Execution Herd</a></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Hashut-s-Wrath-Artillery-Train" style="color:#101010">Hashut’s Wrath Artillery Train</a></div></div></div></span>
+	</div>
+	</div>
+</div>
+	<div class="NavWrapper_M">
+
+	<div class="NavDropdown_Search">
+	<div class="NavBtn_Search">&nbsp;</div>
+	<div class="NavDropdown-content_Search">
+		<div class="yandex_search_line_short"><div class="ya-site-form ya-site-form_inited_no" data-bem="{&quot;action&quot;:&quot;http://wahapedia.ru/aos/search.html&quot;,&quot;arrow&quot;:false,&quot;bg&quot;:&quot;transparent&quot;,&quot;fontsize&quot;:16,&quot;fg&quot;:&quot;#000000&quot;,&quot;language&quot;:&quot;en&quot;,&quot;logo&quot;:&quot;rb&quot;,&quot;publicname&quot;:&quot;Yandex Site Search #2351545&quot;,&quot;suggest&quot;:true,&quot;target&quot;:&quot;_blank&quot;,&quot;tld&quot;:&quot;com&quot;,&quot;type&quot;:2,&quot;usebigdictionary&quot;:true,&quot;searchid&quot;:2351545,&quot;input_fg&quot;:&quot;#000000&quot;,&quot;input_bg&quot;:&quot;#ffffff&quot;,&quot;input_fontStyle&quot;:&quot;normal&quot;,&quot;input_fontWeight&quot;:&quot;normal&quot;,&quot;input_placeholder&quot;:&quot;Search this site...&quot;,&quot;input_placeholderColor&quot;:&quot;#999999&quot;,&quot;input_borderColor&quot;:&quot;#7f9db9&quot;}"><form action="https://yandex.com/search/site/" method="get" target="_blank" accept-charset="utf-8"><input type="hidden" name="searchid" value="2351545"/><input type="hidden" name="l10n" value="en"/><input type="hidden" name="reqenc" value=""/><input type="search" name="text" value=""/><input type="submit" value="Search"/></form></div><style type="text/css">.ya-page_js_yes .ya-site-form_inited_no { display: none; }</style><script type="text/javascript">(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0],e=d.documentElement;if((' '+e.className+' ').indexOf(' ya-page_js_yes ')===-1){e.className+=' ya-page_js_yes';}s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,'yandex_site_callbacks');</script></div>
+	</div>
+	</div>
+	<div class="NavDropdown_A">
+	<div class="NavBtn_A">&nbsp;</div>
+	<div class="NavDropdown-content_A">
+		<a href="/aos/the-rules/about">About</a>
+	</div>
+	</div>
+
+	<div class="NavDropdown_S">
+	<div class="NavBtn_S">&nbsp;</div>
+	<div class="NavDropdown-content_S">
+		<div class="armylist_header">Settings</div><div style="clear:both"></div><label class="container">
+<input checked="true" type="checkbox" class="ShowForgeWorldDatasheets"></input>
+	<span class="checkmark"></span>Show Forge World warscrolls
+</label>
+<label class="container">
+<input checked="true" type="checkbox" class="ShowFluff"></input>
+	<span class="checkmark"></span>Show fluff text
+</label>
+<label class="container">
+<input checked="true" type="checkbox" class="ShowPitchedBattleProfile"></input>
+	<span class="checkmark"></span>Show Pitched Battle Profile
+</label>
+	</div>
+	</div>
+	<div class="NavDropdown">
+	<div class="NavBtn NavBtn_TheRules">The Rules</div>
+	<div class="NavDropdown-content">
+		<a href="/aos/the-rules/playing-this-game">Playing This Game</a><a href="/aos/the-rules/the-core-rules">The Core Rules</a><a href="/aos/the-rules/conquest-unbound">Conquest Unbound</a><a href="/aos/the-rules/open-play-games">Open Play Games</a><a href="/aos/the-rules/narrative-play-games">Narrative Play Games</a><a href="/aos/the-rules/matched-play-games">Matched Play Games</a>
+	</div>
+	</div>
+	<div class="NavDropdown">
+	<div class="NavBtn NavBtn_Factions">Factions</div>
+	<div class="NavDropdown-content">
+		<div class="NavColumns3"><div class="BreakInsideAvoid"><div class="FactionHeader">Order</div><a href="/aos/factions/cities-of-sigmar">Cities of Sigmar</a><a href="/aos/factions/daughters-of-khaine">Daughters of Khaine</a><a href="/aos/factions/fyreslayers">Fyreslayers</a><a href="/aos/factions/idoneth-deepkin">Idoneth Deepkin</a><a href="/aos/factions/kharadron-overlords">Kharadron Overlords</a><a href="/aos/factions/lumineth-realm-lords">Lumineth Realm-lords</a><a href="/aos/factions/seraphon">Seraphon</a><a href="/aos/factions/stormcast-eternals">Stormcast Eternals</a><a href="/aos/factions/sylvaneth">Sylvaneth</a><div class="NavColumns_indent"></div></div><div class="BreakInsideAvoid"><div class="FactionHeader">Chaos</div><a href="/aos/factions/beasts-of-chaos">Beasts of Chaos</a><a href="/aos/factions/khorne">Khorne</a><a href="/aos/factions/legion-of-azgorh">Legion of Azgorh</a><a href="/aos/factions/skaventide">Skaventide</a><a href="/aos/factions/slaanesh">Slaanesh</a><a href="/aos/factions/slaves-to-darkness">Slaves to Darkness</a><a href="/aos/factions/tzeentch">Tzeentch</a><div class="NavColumns_indent"></div></div><div class="BreakInsideAvoid"><div class="FactionHeader">Death</div><a href="/aos/factions/flesh-eater-courts">Flesh-eater Courts</a><a href="/aos/factions/nighthaunt">Nighthaunt</a><a href="/aos/factions/ossiarch-bonereapers">Ossiarch Bonereapers</a><div class="NavColumns_indent"></div></div><div class="NavColumns_indent2"></div><div class="BreakInsideAvoid"><div class="FactionHeader">Destruction</div><a href="/aos/factions/gloomspite-gitz">Gloomspite Gitz</a><a href="/aos/factions/ogor-mawtribes">Ogor Mawtribes</a><a href="/aos/factions/orruk-warclans">Orruk Warclans</a><a href="/aos/factions/sons-of-behemat">Sons of Behemat</a><div class="NavColumns_indent"></div></div></div>
+	</div>
+	</div>
+</div>
+<div class="NavUnderline_M"></div>
+
+<div class="patreon_logoBW_float">
+<a target="_blank" href="https://www.patreon.com/vgmaltsev"><div class="patreon_logoBW no_tooltip" title="Become a patron"></div></a>
+<a target="_blank" href="https://www.paypal.me/vgmaltsev?locale.x=en_US"><div class="paypal_logoBW no_tooltip" title="Donate via PayPal"></div></a>
+</div>
+</div>
+
+<div class="yandex_search_line yandex_search_line_show">
+<div class="ya-site-form ya-site-form_inited_no" data-bem="{&quot;action&quot;:&quot;http://wahapedia.ru/aos/search.html&quot;,&quot;arrow&quot;:false,&quot;bg&quot;:&quot;transparent&quot;,&quot;fontsize&quot;:16,&quot;fg&quot;:&quot;#000000&quot;,&quot;language&quot;:&quot;en&quot;,&quot;logo&quot;:&quot;rb&quot;,&quot;publicname&quot;:&quot;Yandex Site Search #2351545&quot;,&quot;suggest&quot;:true,&quot;target&quot;:&quot;_blank&quot;,&quot;tld&quot;:&quot;com&quot;,&quot;type&quot;:2,&quot;usebigdictionary&quot;:true,&quot;searchid&quot;:2351545,&quot;input_fg&quot;:&quot;#000000&quot;,&quot;input_bg&quot;:&quot;#ffffff&quot;,&quot;input_fontStyle&quot;:&quot;normal&quot;,&quot;input_fontWeight&quot;:&quot;normal&quot;,&quot;input_placeholder&quot;:&quot;Search this site...&quot;,&quot;input_placeholderColor&quot;:&quot;#999999&quot;,&quot;input_borderColor&quot;:&quot;#7f9db9&quot;}"><form action="https://yandex.com/search/site/" method="get" target="_blank" accept-charset="utf-8"><input type="hidden" name="searchid" value="2351545"/><input type="hidden" name="l10n" value="en"/><input type="hidden" name="reqenc" value=""/><input type="search" name="text" value=""/><input type="submit" value="Search"/></form></div><style type="text/css">.ya-page_js_yes .ya-site-form_inited_no { display: none; }</style><script type="text/javascript">(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0],e=d.documentElement;if((' '+e.className+' ').indexOf(' ya-page_js_yes ')===-1){e.className+=' ya-page_js_yes';}s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,'yandex_site_callbacks');</script>
+</div>
+<div style="clear:both"></div>
+</div>
+<div class="page_header2"><span class="page_header_span2 kwbu tooltip" data-tooltip-content="#tooltip_contentFactionRules">Legion of Azgorh</span><span class="page_header_span2"> – Skullcracker War Engine</span></div>
+<div class="noprint">
+
+</div>
+<!--/noindex-->
+<div class="pagebreak " style="position:relative"><div class="AoS_profile"><div class="wsMoveCt"><img src="/aos/img/asterix.png"></div><div class="wsWounds">11</div><div class="wsSave">3+</div><div class="wsBravery">7</div></div><div><div class="nails-header"><span class="nails"></span>WARSCROLL<span class="nails"></span></div><h3 class="wsHeader">Skullcracker War Engine</h3></div><div class="ShowFluff wsLegend">Designed for crushing fortifications and walls, the Skullcracker is a hissing and grinding arcane-mechanical conglomeration of iron hammers, hacking blades, and brutal picks designed to pulverise and shred anything unfortunate to be caught in its path.</div><div class="wsTable"><table  border="1" cellspacing="0" cellpadding="2" style="border-collapse:collapse;border-width:0px"><tr class="wsHeaderRow"><td class="wsHeaderCellName wsHeaderCellName_MeleeWeapons"><span class="wsHeaderCellName_short">MELEE WEAPONS</span></td><td class="wsHeaderCell">Range</td><td class="wsHeaderCell">Attacks</td><td class="wsHeaderCell">To Hit</td><td class="wsHeaderCell"><span class="wsHeaderCell_long">To Wound</span><span class="wsHeaderCell_short">To Wnd</span></td><td class="wsHeaderCell">Rend</td><td class="wsHeaderCell"><span class="wsHeaderCell_long">Damage</span><span class="wsHeaderCell_short">Dmg</span></td></tr><tr class="wsDataRow wsDataCell_short"><td colspan="7" style="border-width:0px">Hammers and Picks</td></tr><tr class="wsDataRow wsDataCell"><td class="wsDataCell_short"></td><td class="wsDataCell wsDataCell_long">Hammers and Picks</td><td class="wsDataCell">3"</td><td class="wsDataCell">2D6</td><td class="wsDataCell">3+</td><td class="wsDataCell"><img src="/aos/img/asterix.png"></td><td class="wsDataCell">-1</td><td class="wsDataCell">D3</td></tr><tr class="wsDataRow wsDataCell_short"><td colspan="7" style="border-width:0px">Crushing Bulk</td></tr><tr class="wsDataRow wsLastDataCell"><td class="wsDataCell_short"></td><td class="wsLastDataCell wsDataCell_long">Crushing Bulk</td><td class="wsLastDataCell">1"</td><td class="wsLastDataCell"><img src="/aos/img/asterix.png"></td><td class="wsLastDataCell">4+</td><td class="wsLastDataCell">4+</td><td class="wsLastDataCell">-</td><td class="wsLastDataCell">2</td></tr></table></div><div class="wsTable"><div class="wsDamageHeader">DAMAGE</div><table border="1" cellspacing="0" cellpadding="2" class="wsDamageTable"><tr class="wsHeaderRow"><td class="wsDamageWidth wsHeaderCell">Wounds Suffered</td><td class="wsDamageWidth wsHeaderCell">Move</td><td class="wsDamageWidth wsHeaderCell">Hammers and Picks</td><td class="wsDamageWidth wsHeaderCell">Crushing Bulk</td></tr><tr class="wsDataRow"><td class="wsDamageWidth wsDataCell">0-2</td><td class="wsDamageWidth wsDataCell">10"</td><td class="wsDamageWidth wsDataCell">3+</td><td class="wsDamageWidth wsDataCell">6</td></tr><tr class="wsDataRow"><td class="wsDamageWidth wsDataCell">3-4</td><td class="wsDamageWidth wsDataCell">9"</td><td class="wsDamageWidth wsDataCell">3+</td><td class="wsDamageWidth wsDataCell">5</td></tr><tr class="wsDataRow"><td class="wsDamageWidth wsDataCell">5-6</td><td class="wsDamageWidth wsDataCell">8"</td><td class="wsDamageWidth wsDataCell">4+</td><td class="wsDamageWidth wsDataCell">4</td></tr><tr class="wsDataRow"><td class="wsDamageWidth wsDataCell">7-9</td><td class="wsDamageWidth wsDataCell">7"</td><td class="wsDamageWidth wsDataCell">4+</td><td class="wsDamageWidth wsDataCell">3</td></tr><tr class="wsDataRow"><td class="wsDamageWidth wsLastDataCell">10+</td><td class="wsDamageWidth wsLastDataCell">6"</td><td class="wsDamageWidth wsLastDataCell">5+</td><td class="wsDamageWidth wsLastDataCell">2</td></tr></table></div><div style="clear:both"></div><div class="Columns3_NoRule"><div class="BreakInsideAvoid PitchedBattleProfile ShowPitchedBattleProfile"><div class="wsAbilityHeader">PITCHED BATTLE PROFILE</div><a href="/aos/the-rules/matched-play-games#Pitched-Battles"><div class="tooltip_link_inline"></div></a><br><div class="BreakInsideAvoid"><span class="redfont">Unit Size</span><b>: </b>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="redfont">Points</span><b>: </b>200<br><span class="redfont">Battlefield Role</span><b>: </b>Behemoth<br></div></div><div class="ShowPitchedBattleProfile"><br></div><div class="BreakInsideAvoid"><div class="wsAbilityHeader">DESCRIPTION</div><br><div class="BreakInsideAvoid">A Skullcracker War Engine is a single model armed with Hammers and Picks and Crushing Bulk.<div><br></div></div></div><div class="BreakInsideAvoid"><div class="wsAbilityHeader">ABILITIES</div><br><div class="BreakInsideAvoid"><span class="redfont">Beaten into Scrap</span><b>: </b><span class="ShowFluff legend4">The war constructs of the enemy cannot withstand the relentless pounding blows of a Skullcracker’s weapons array for long.<br><div class="spc"></div></span>You can re-roll <span class="tooltip" data-tooltip-content="#tooltip_content00006"><span class="tt kwbu">wound</span> <span class="tt kwbu">rolls</span></span> for attacks made with this model’s Hammer and Picks that target a <span class="tooltip" data-tooltip-content="#tooltip_contentWARMACHINE" data-tooltip-anchor="#tooltip_contentWARMACHINE"><span class="tt kwbu">WAR</span> <span class="tt kwbu">MACHINE</span></span>.<div><br></div></div></div><div class="BreakInsideAvoid"><span class="redfont">Carriage Hauler</span><b>: </b><span class="ShowFluff legend4">Such is the size and power of this war engine that it can be used to haul the carriages of other artillery pieces into battle.<br><div class="spc"></div></span>At the start of your <a href="http://wahapedia.ru/aos/the-rules/the-core-rules#MOVEMENT-PHASE">movement phase</a>, you can pick 1 friendly <span class="tooltip" data-tooltip-content="#tooltip_content00022" data-tooltip-anchor="#tooltip_content00022"><span class="tt kwbu">DEATHSHRIEKER</span> <span class="tt kwbu">ROCKET</span> <span class="tt kwbu">LAUNCHER</span></span>, <span class="tooltip" data-tooltip-content="#tooltip_content00023" data-tooltip-anchor="#tooltip_content00023"><span class="tt kwbu">MAGMA</span> <span class="tt kwbu">CANNON</span></span>, or <span class="tooltip" data-tooltip-content="#tooltip_content00024" data-tooltip-anchor="#tooltip_content00024"><span class="tt kwbu">DREADQUAKE</span> <span class="tt kwbu">MORTAR</span></span> unit within 1" of this model. If you do so, that unit can use this model’s Move characteristic during that movement phase, as long as it is within 1" of this model at the end of that movement phase.<div><br></div></div><div class="BreakInsideAvoid"><span class="redfont">More Power!</span><b>: </b><span class="ShowFluff legend4">If needed, the Skullcracker’s crew can goad the half-possessed machine to even greater heights of power from its fire-spewing boiler, though doing so is not without risk of retaliation.<br><div class="spc"></div></span>In your <a href="http://wahapedia.ru/aos/the-rules/the-core-rules#COMBAT-PHASE">combat phase</a>, you can change the Attacks characteristic of this model’s Hammers and Picks from 2D6 to either 3D6 or 4D6. However, if you do so and the roll is 12+, this model suffers D3 <span class="tooltip" data-tooltip-content="#tooltip_content00002"><span class="tt kwbu">mortal</span> <span class="tt kwbu">wounds</span></span> after all of its attacks have been resolved.</div></div><div style="clear:both"><br></div><table width=100% border="0" cellspacing="0" cellpadding="8"><tr><td style="vertical-align:middle;width:10px; border: 1px solid #908249;background-color:#908249;"><div style="font-weight:700; font-family:'Minion-Pro',serif;">KEYWORDS</div></td><td style="background:#fefefe;vertical-align:middle;border: 1px solid #908249;"><div style="font-weight:bold"><span class="tooltip" data-tooltip-content="#tooltip_contentCHAOS" data-tooltip-anchor="#tooltip_contentCHAOS"><span class="tt kwbu">CHAOS</span></span>, <span class="tooltip" data-tooltip-content="#tooltip_contentDAWIZHARR" data-tooltip-anchor="#tooltip_contentDAWIZHARR"><span class="tt kwbu">DAWI</span> <span class="tt kwbu">ZHARR</span></span>, <span class="tooltip" data-tooltip-content="#tooltip_contentLEGIONOFAZGORH" data-tooltip-anchor="#tooltip_contentLEGIONOFAZGORH"><span class="tt kwbu">LEGION</span> <span class="tt kwbu">OF</span> <span class="tt kwbu">AZGORH</span></span>, <span class="tooltip" data-tooltip-content="#tooltip_contentWARMACHINE" data-tooltip-anchor="#tooltip_contentWARMACHINE"><span class="tt kwbu">WAR</span> <span class="tt kwbu">MACHINE</span></span>, <span class="tt">SKULLCRACKER</span> <span class="tt">WAR</span> <span class="tt">ENGINE</span></div></td></tr></table></div><div style="clear:both"></div>
+<!--noindex--><div class="tooltip_templates"><span id="tooltip_content00005"><div class="tooltip_header">Modifiers</div><a href="/aos/the-rules/the-core-rules#Modifiers"><div class="tooltip_link"></div></a><div style="clear:both"></div>
+Sometimes modifiers apply to characteristics or abilities. For example, a rule might add 1 to a <a href="http://wahapedia.ru/aos/the-rules/the-core-rules#Making-Attacks">hit roll</a> or the Move characteristic of a model. Modifiers are cumulative. Modifiers can never reduce a dice roll to less than 1.<br><br>If a modifier applies to a random value, work out the random value first and then apply the modifier(s) to it. For example, if an ability adds 1 to a Damage characteristic of D3, the result would be worked out by rolling the D3 and adding 1 to the roll.
+</span></div><div class="tooltip_templates"><span id="tooltip_content00006"><div class="tooltip_header">Making Attacks</div><a href="/aos/the-rules/the-core-rules#Making-Attacks"><div class="tooltip_link"></div></a><div style="clear:both"></div>
+Attacks are resolved one at a time using the following attack sequence. In some cases, you can resolve all of the attacks made by the same type of weapon at the same time (see <a href="http://wahapedia.ru/aos/the-rules/the-core-rules#Multiple-Attacks">Multiple Attacks</a>).<br><br><div class="BreakInsideAvoid Corner1" style="padding:0px;"><table class=" collapse" border="0" cellpadding="0" cellspacing="0" ><tbody><tr><td background="/aos/img/corners/Corner1_1.png" style="width:34px;height:34px"></td><td background="/aos/img/corners/Corner1_2.png" style="height:34px"></td><td background="/aos/img/corners/Corner1_3.png" style="width:34px;height:34px"></td></tr><tr><td background="/aos/img/corners/Corner1_8.png" style="width:34px"></td><td bgcolor="#f5f5ec"><div class="BreakInsideAvoid" "><table border="0" bordercolor="#888" cellpadding="4" cellspacing="0" style="border-collapse:collapse;border-width:0px"><tbody><tr><td><table class=" customTable" border="1" bordercolor="#888" cellpadding="4" style="border-collapse:collapse;border-color:#908249;border-width:0px"><tbody><tr><td style="border-width:0 0 0 0;text-align:right;vertical-align:top;width:15px;height:0px;"><b>1.</b></td><td style="border-width:0 0 0 0;vertical-align:bottom;width:424px;height:0px;"><b>Hit Roll:</b> Roll a dice. If the roll equals or beats the attacking weapon’s To Hit characteristic, then it scores a hit and you must make a wound roll. If not, the attack fails and the attack sequence ends. A hit roll of 1 before modification always fails to hit the target, and a hit roll of 6 before modification always hits the target.</td></tr><tr><td style="border-width:0 0 0 0;text-align:right;vertical-align:top;width:15px;height:0px;"><b>2.</b></td><td style="border-width:0 0 0 0;vertical-align:bottom;width:424px;height:0px;"><b>Wound Roll:</b> Roll a dice. If the roll equals or beats the attacking weapon’s To Wound characteristic, then it is successful and the opposing player must make a save roll. If not, then the attack fails and the attack sequence ends. A wound roll of 1 before <span class="tooltip" data-tooltip-content="#tooltip_content00005"><span class="tt kwbu">modification</span></span> always fails, and a wound roll of 6 before modification is always successful.</td></tr><tr><td style="border-width:0 0 0 0;text-align:right;vertical-align:top;width:15px;height:0px;"><b>3.</b></td><td style="border-width:0 0 0 0;vertical-align:bottom;width:424px;height:0px;"><b>Save Roll:</b> The opposing player rolls a dice, modifying the roll by the attacking weapon’s Rend characteristic. For example, if a weapon has a -1 Rend characteristic, then 1 is subtracted from the save roll. If the result equals or beats the Save characteristic of the models in the target unit, the save succeeds and the attack sequence ends without causing any damage. If not, the save fails and the attack is successful, and you must determine damage on the target unit. A save roll of 1 before <span class="tooltip" data-tooltip-content="#tooltip_content00005"><span class="tt kwbu">modification</span></span> always fails.</td></tr><tr><td style="border-width:0 0 0 0;text-align:right;vertical-align:top;width:15px;height:0px;"><b>4.</b></td><td style="border-width:0 0 0 0;vertical-align:bottom;width:424px;height:0px;"><b>Determine Damage:</b> Each successful attack inflicts damage on the target unit equal to the Damage characteristic of the weapon making the attack. Most weapons have a Damage characteristic of 1, but some have a Damage characteristic of 2 or more.</td></tr></tbody></table></td></tr></tbody></table></div></td><td background="/aos/img/corners/Corner1_4.png" style="width:34px"></td></tr><tr><td background="/aos/img/corners/Corner1_7.png" style="width:34px;height:34px"></td><td background="/aos/img/corners/Corner1_6.png" style="height:34px"></td><td background="/aos/img/corners/Corner1_5.png" style="width:34px;height:34px"></td></tr></tbody></table></div>
+</span></div><div class="tooltip_templates"><span id="tooltip_contentWARMACHINE"><b><p>The WAR MACHINE keyword is used in following Legion of Azgorh warscrolls:</p></b><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Artillery</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Deathshrieker-Rocket-Launcher" style="color:#101010">Deathshrieker Rocket Launcher</a></div></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Dreadquake-Mortar" style="color:#101010">Dreadquake Mortar</a></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Magma-Cannon" style="color:#101010">Magma Cannon</a></div><div style="clear:both"></div></div><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Behemoth</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Iron-Daemon-War-Engine" style="color:#101010">Iron Daemon War Engine</a></div></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Skullcracker-War-Engine" style="color:#101010">Skullcracker War Engine</a></div><div style="clear:both"></div></div></span></div><div class="tooltip_templates"><span id="tooltip_content00022"><b><p>The DEATHSHRIEKER ROCKET LAUNCHER keyword is used in following Legion of Azgorh warscrolls:</p></b><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Artillery</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Deathshrieker-Rocket-Launcher" style="color:#101010">Deathshrieker Rocket Launcher</a></div></div><div style="clear:both"></div></div></span></div><div class="tooltip_templates"><span id="tooltip_content00023"><b><p>The MAGMA CANNON keyword is used in following Legion of Azgorh warscrolls:</p></b><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Artillery</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Magma-Cannon" style="color:#101010">Magma Cannon</a></div></div><div style="clear:both"></div></div></span></div><div class="tooltip_templates"><span id="tooltip_content00024"><b><p>The DREADQUAKE MORTAR keyword is used in following Legion of Azgorh warscrolls:</p></b><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Artillery</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Dreadquake-Mortar" style="color:#101010">Dreadquake Mortar</a></div></div><div style="clear:both"></div></div></span></div><div class="tooltip_templates"><span id="tooltip_content00002"><div class="tooltip_header">Mortal Wounds</div><a href="/aos/the-rules/the-core-rules#Mortal-Wounds"><div class="tooltip_link"></div></a><div style="clear:both"></div>
+Some attacks, spells and abilities inflict mortal wounds. Do not make <a href="http://wahapedia.ru/aos/the-rules/the-core-rules#Making-Attacks">hit, wound or save rolls</a> for mortal wounds. Instead, the damage inflicted on the target is equal to the number of mortal wounds that were suffered. <a href="http://wahapedia.ru/aos/the-rules/the-core-rules#Allocating-Wounds">Allocate</a> any mortal wounds that are caused while a unit is attacking at the same time as any other wounds caused by the unit’s attacks, after all of the unit’s attacks have been completed. Mortal wounds caused at other times are allocated to models in the target unit as soon as they occur, in the same manner as wounds caused by damage from an attack.<br><br>After they have been allocated, a mortal wound is treated in the same manner as any other wound for all rules purposes.
+</span></div><div class="tooltip_templates"><span id="tooltip_contentCHAOS"><b><p>The CHAOS keyword is used in following Legion of Azgorh warscrolls:</p></b><div class="Columns2"><div style="clear:both; margin-bottom:8px;"><div class="BatRole">None</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Bull-Centaur-Renders" style="color:#101010">Bull Centaur Renders</a></div></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Fireglaives" style="color:#101010">Infernal Guard Fireglaives</a></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/K-daai-Fireborn" style="color:#101010">K’daai Fireborn</a></div><div style="clear:both"></div></div><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Artillery</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Deathshrieker-Rocket-Launcher" style="color:#101010">Deathshrieker Rocket Launcher</a></div></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Dreadquake-Mortar" style="color:#101010">Dreadquake Mortar</a></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Magma-Cannon" style="color:#101010">Magma Cannon</a></div><div style="clear:both"></div></div><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Battleline</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Ironsworn" style="color:#101010">Infernal Guard Ironsworn</a></div></div><div style="clear:both"></div></div><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Leader</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Bull-Centaur-Taur-ruk" style="color:#101010">Bull Centaur Taur’ruk</a></div></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Daemonsmith" style="color:#101010">Daemonsmith</a></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Battle-Standard-Bearer" style="color:#101010">Infernal Guard Battle Standard Bearer</a></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Castellan" style="color:#101010">Infernal Guard Castellan</a></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Shar-tor-the-Executioner" style="color:#101010">Shar’tor the Executioner</a></div><div style="clear:both"></div></div><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Leader, Behemoth</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Drazhoath-the-Ashen" style="color:#101010">Drazhoath the Ashen</a></div></div><div style="clear:both"></div></div><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Behemoth</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Iron-Daemon-War-Engine" style="color:#101010">Iron Daemon War Engine</a></div></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Skullcracker-War-Engine" style="color:#101010">Skullcracker War Engine</a></div><div style="clear:both"></div></div></div></span></div><div class="tooltip_templates"><span id="tooltip_contentDAWIZHARR"><b><p>The DAWI ZHARR keyword is used in following Legion of Azgorh warscrolls:</p></b><div class="Columns2"><div style="clear:both; margin-bottom:8px;"><div class="BatRole">None</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Bull-Centaur-Renders" style="color:#101010">Bull Centaur Renders</a></div></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Fireglaives" style="color:#101010">Infernal Guard Fireglaives</a></div><div style="clear:both"></div></div><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Artillery</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Deathshrieker-Rocket-Launcher" style="color:#101010">Deathshrieker Rocket Launcher</a></div></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Dreadquake-Mortar" style="color:#101010">Dreadquake Mortar</a></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Magma-Cannon" style="color:#101010">Magma Cannon</a></div><div style="clear:both"></div></div><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Battleline</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Ironsworn" style="color:#101010">Infernal Guard Ironsworn</a></div></div><div style="clear:both"></div></div><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Leader</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Bull-Centaur-Taur-ruk" style="color:#101010">Bull Centaur Taur’ruk</a></div></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Daemonsmith" style="color:#101010">Daemonsmith</a></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Battle-Standard-Bearer" style="color:#101010">Infernal Guard Battle Standard Bearer</a></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Castellan" style="color:#101010">Infernal Guard Castellan</a></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Shar-tor-the-Executioner" style="color:#101010">Shar’tor the Executioner</a></div><div style="clear:both"></div></div><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Leader, Behemoth</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Drazhoath-the-Ashen" style="color:#101010">Drazhoath the Ashen</a></div></div><div style="clear:both"></div></div><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Behemoth</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Iron-Daemon-War-Engine" style="color:#101010">Iron Daemon War Engine</a></div></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Skullcracker-War-Engine" style="color:#101010">Skullcracker War Engine</a></div><div style="clear:both"></div></div></div></span></div><div class="tooltip_templates"><span id="tooltip_contentLEGIONOFAZGORH"><b><p>The LEGION OF AZGORH keyword is used in following Legion of Azgorh warscrolls:</p></b><div class="Columns2"><div style="clear:both; margin-bottom:8px;"><div class="BatRole">None</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Bull-Centaur-Renders" style="color:#101010">Bull Centaur Renders</a></div></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Fireglaives" style="color:#101010">Infernal Guard Fireglaives</a></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/K-daai-Fireborn" style="color:#101010">K’daai Fireborn</a></div><div style="clear:both"></div></div><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Artillery</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Deathshrieker-Rocket-Launcher" style="color:#101010">Deathshrieker Rocket Launcher</a></div></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Dreadquake-Mortar" style="color:#101010">Dreadquake Mortar</a></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Magma-Cannon" style="color:#101010">Magma Cannon</a></div><div style="clear:both"></div></div><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Battleline</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Ironsworn" style="color:#101010">Infernal Guard Ironsworn</a></div></div><div style="clear:both"></div></div><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Leader</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Bull-Centaur-Taur-ruk" style="color:#101010">Bull Centaur Taur’ruk</a></div></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Daemonsmith" style="color:#101010">Daemonsmith</a></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Battle-Standard-Bearer" style="color:#101010">Infernal Guard Battle Standard Bearer</a></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Castellan" style="color:#101010">Infernal Guard Castellan</a></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Shar-tor-the-Executioner" style="color:#101010">Shar’tor the Executioner</a></div><div style="clear:both"></div></div><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Leader, Behemoth</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Drazhoath-the-Ashen" style="color:#101010">Drazhoath the Ashen</a></div></div><div style="clear:both"></div></div><div style="clear:both; margin-bottom:8px;"><div class="BatRole">Behemoth</div><div class="BreakInsideAvoid"><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Iron-Daemon-War-Engine" style="color:#101010">Iron Daemon War Engine</a></div></div><div style="clear:both"></div><div  style="padding: 1px 10px 1px 15px"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Skullcracker-War-Engine" style="color:#101010">Skullcracker War Engine</a></div><div style="clear:both"></div></div></div></span></div><div class="tooltip_templates"><span id="tooltip_contentArmyList"><span class="contents"><div class="armylist_header">Army List</div><span class="datasheetsCollated"><a href="/aos/factions/legion-of-azgorh/warscrolls.html">Warscrolls collated</a></span><div style="clear:both"></div><div class="NavColumns2"><div style="margin-bottom:8px;"><div class="BreakInsideAvoid"><div class="i5 ArmyType_line "><span style="color:#101010"><b class="BatRole">None</b></span></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Bull-Centaur-Renders" style="color:#101010">Bull Centaur Renders</a></div></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Fireglaives" style="color:#101010">Infernal Guard Fireglaives</a></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/K-daai-Fireborn" style="color:#101010">K’daai Fireborn</a></div></div><div style="margin-bottom:8px;"><div class="BreakInsideAvoid"><div class="i5 ArmyType_line "><span style="color:#101010"><b class="BatRole">Artillery</b></span></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Deathshrieker-Rocket-Launcher" style="color:#101010">Deathshrieker Rocket Launcher</a></div></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Dreadquake-Mortar" style="color:#101010">Dreadquake Mortar</a></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Magma-Cannon" style="color:#101010">Magma Cannon</a></div></div><div style="margin-bottom:8px;"><div class="BreakInsideAvoid"><div class="i5 ArmyType_line "><span style="color:#101010"><b class="BatRole">Battleline</b></span></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Ironsworn" style="color:#101010">Infernal Guard Ironsworn</a></div></div></div><div style="margin-bottom:8px;"><div class="BreakInsideAvoid"><div class="i5 ArmyType_line "><span style="color:#101010"><b class="BatRole">Leader</b></span></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Bull-Centaur-Taur-ruk" style="color:#101010">Bull Centaur Taur’ruk</a></div></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Daemonsmith" style="color:#101010">Daemonsmith</a></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Battle-Standard-Bearer" style="color:#101010">Infernal Guard Battle Standard Bearer</a></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Infernal-Guard-Castellan" style="color:#101010">Infernal Guard Castellan</a></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Shar-tor-the-Executioner" style="color:#101010">Shar’tor the Executioner</a></div></div><div style="margin-bottom:8px;"><div class="BreakInsideAvoid"><div class="i5 ArmyType_line "><span style="color:#101010"><b class="BatRole">Leader, Behemoth</b></span></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Drazhoath-the-Ashen" style="color:#101010">Drazhoath the Ashen</a></div></div></div><div style="margin-bottom:8px;"><div class="BreakInsideAvoid"><div class="i5 ArmyType_line "><span style="color:#101010"><b class="BatRole">Behemoth</b></span></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Iron-Daemon-War-Engine" style="color:#101010">Iron Daemon War Engine</a></div></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Skullcracker-War-Engine" style="color:#101010">Skullcracker War Engine</a></div></div><div style="margin-bottom:8px;"><div class="BreakInsideAvoid"><div class="i5 ArmyType_line "><span style="color:#101010"><b class="BatRole">Warscroll Battalion</b></span></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Blackshard-Warhost" style="color:#101010">Blackshard Warhost</a></div></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Execution-Herd" style="color:#101010">Execution Herd</a></div><div class="i15 ArmyType_line "><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/Hashut-s-Wrath-Artillery-Train" style="color:#101010">Hashut’s Wrath Artillery Train</a></div></div></div></span></span></div><div class="tooltip_templates"><span id="tooltip_contentFactionRules"><span class="contents"><div class="tooltip_header">Faction Rules</div><a href="/aos/factions/legion-of-azgorh"><div class="tooltip_link"></div></a><div style="clear:both"></div><div class="w1 i15"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/#Allies" style="color:#101010">Allies</a></div><div class="w1 i15"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/#Battle-Traits" style="color:#101010">Battle Traits</a></div><div class="w1 i15"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/#Spell-Lores" style="color:#101010">Spell Lores</a></div><div class="w1 i15"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/#Command-Traits" style="color:#101010">Command Traits</a></div><div class="w1 i15"><span style="color:#101010">•&nbsp;</span><a href="http://wahapedia.ru/aos/factions/legion-of-azgorh/#Artefacts-of-Power" style="color:#101010">Artefacts of Power</a></div></span></span></div><!--/noindex-->
+<div style="clear:both"></div>
+<!--noindex-->
+
+<div class="noprint"><div id="btnBackToTop" title="Back to Top"></div></div>
+<div class="tooltipArmyList" data-tooltip-content="#tooltip_contentArmyList" id="btnArmyList"></div>
+<script type='text/javascript'>
+$(window).scroll(function() {
+if ($(this).scrollTop() >= 200) {
+$('#btnBackToTop').fadeIn(300);
+} else {
+$("#btnBackToTop").fadeOut(300);
+}
+});
+
+$('#btnBackToTop').on('touchstart', function () {
+	'use strict';
+	$(this).attr('style', 'background-image: url(/aos/img/Button_ToTop_Hover.png)');
+	$(this).fadeIn(300);
+	return true;
+});
+
+$('#btnBackToTop').on('touchend', function () {
+	'use strict';
+	$(this).attr('style', 'background-image: url(/aos/img/Button_ToTop.png)');
+		$(this).fadeOut(300);
+   document.body.scrollTop = 0; // For Safari
+	document.documentElement.scrollTop = 0;
+	return true;
+});
+
+$('#btnBackToTop').on('click', function () { 
+	'use strict';
+   document.body.scrollTop = 0; // For Safari
+   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+	return true;
+});
+
+$('#btnArmyList').on('touchstart', function () {
+	'use strict';
+	$(this).attr('style', 'background-image: url(/aos/img/Button_ArmyList_Hover.png)');
+	return true;
+});
+
+$('#btnArmyList').on('touchend', function () {
+	'use strict';
+	$(this).attr('style', 'background-image: url(/aos/img/Button_ArmyList.png)');
+	return true;
+});
+
+</script>
+</div>
+<div class="noprint">
+	<div align="center"><div class="author">© Vyacheslav Maltsev 2013-2020</div></div>
+	<div style="display:flex;justify-content:center;align-items:center;">
+		<div class="social_buttons">
+			<a target="_blank" href="https://www.patreon.com/vgmaltsev"><div class="patreon_logo no_tooltip" title="Become a patron"></div></a>
+			<a target="_blank" href="https://vk.com/wahapedia"><div class="social_vk no_tooltip" title="Follow on VKontakte"></div></a>
+			<a target="_blank" href="https://discord.gg/VAXG2jRjXY"><div class="social_dd no_tooltip" title="Join Discord server"></div></a>
+			<a target="_blank" href="mailto:info@wahapedia.ru"><div class="social_email no_tooltip" title="Send e-mail"></div></a>
+		</div>		
+	</div>
+</div>
+</div>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-57173050-3', 'auto');
+ga('send', 'pageview');
+</script>
+<!--/noindex-->
+</body>
+</html>
