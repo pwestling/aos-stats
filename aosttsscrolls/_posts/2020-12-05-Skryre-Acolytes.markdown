@@ -15,7 +15,7 @@ tags: [skaventide]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     1     4     6     
+6"    1     4     6+    
 [e85545]Weapons[-]
 [c6c930]Poisoned Wind Globe[-]
 8"     A:1    H:4+   W:4+   R:-2   D:D3  

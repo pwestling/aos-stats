@@ -15,7 +15,7 @@ tags: [ossiarch-bonereapers]
 
 ```
 [56f442]M     W     B     Sa    [-]
-5     6     10    5     
+5"    6     10    5+    
 [e85545]Weapons[-]
 [c6c930]Gaze of Death[-]
 12"    A:1    H:3+   W:2+   R:-1   D:D3  

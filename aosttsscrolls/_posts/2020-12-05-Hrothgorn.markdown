@@ -15,7 +15,7 @@ tags: [ogor-mawtribes]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     7     7     5     
+6"    7     7     5+    
 [e85545]Weapons[-]
 [c6c930]Trap Launcher[-]
 12"    A:1    H:4+   W:3+   R:-    D:D3  

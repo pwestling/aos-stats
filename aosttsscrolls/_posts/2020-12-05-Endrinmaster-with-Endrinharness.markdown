@@ -15,7 +15,7 @@ tags: [kharadron-overlords]
 
 ```
 [56f442]M     W     B     Sa    [-]
-4     6     7     4     
+4"    6     7     4+    
 [e85545]Weapons[-]
 [c6c930]Gaze of Grungni[-]
 9"     A:1    H:3+   W:2+   R:-1   D:D3  

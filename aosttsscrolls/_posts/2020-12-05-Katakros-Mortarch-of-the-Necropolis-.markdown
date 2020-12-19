@@ -15,7 +15,7 @@ tags: [ossiarch-bonereapers]
 
 ```
 [56f442]M     W     B     Sa    [-]
-4     20    10    3     
+4"    20    10    3+    
 [e85545]Weapons[-]
 [c6c930]Inda-Khaat[-]
 1"     A:*    H:3+   W:3+   R:-3   D:3   

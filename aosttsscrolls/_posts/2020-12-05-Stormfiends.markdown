@@ -15,12 +15,14 @@ tags: [skaventide]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     6     6     4     
+6"    6     6     4+    
 [e85545]Weapons[-]
 [c6c930]Ratling Cannons[-]
 12"    A:3D6  H:4+   W:3+   R:-1   D:1   
 [c6c930]Windlaunchers[-]
 24"    A:3    H:4+   W:4+   R:-3   D:D3  
+[c6c930]Warpfire Projectors[-]
+8"     A:*    H:*    W:*    R:*    D:*   
 [c6c930]Doomflayer Gauntlets[-]
 1"     A:2D3  H:3+   W:3+   R:-2   D:D3  
 [c6c930]Grinderfists[-]

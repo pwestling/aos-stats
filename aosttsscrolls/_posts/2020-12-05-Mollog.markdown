@@ -15,10 +15,12 @@ tags: [gloomspite-gitz]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     8     7     4     
+6"    8     7     4+    
 [e85545]Weapons[-]
 [c6c930]Jabbertoad[-]
 12"    A:1    H:4+   W:4+   R:-    D:1   
+[c6c930]Puff-fungus Club[-]
+1"     A:2    H:*    W:*    R:*    D:*   
 ```
 
 

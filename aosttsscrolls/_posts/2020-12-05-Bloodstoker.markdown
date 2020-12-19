@@ -15,7 +15,7 @@ tags: [khorne]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     5     8     4     
+6"    5     8     4+    
 [e85545]Weapons[-]
 [c6c930]Torture Blade[-]
 1"     A:3    H:3+   W:3+   R:-    D:1   

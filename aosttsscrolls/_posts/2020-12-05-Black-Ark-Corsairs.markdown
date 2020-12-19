@@ -15,7 +15,7 @@ tags: [cities-of-sigmar]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     1     6     5     
+6"    1     6     5+    
 [e85545]Weapons[-]
 [c6c930]Repeater Handbow[-]
 9"     A:2    H:5+   W:4+   R:-    D:1   

@@ -15,7 +15,7 @@ tags: [seraphon]
 
 ```
 [56f442]M     W     B     Sa    [-]
-5     10    6     *     
+5"    10    6     *     
 [e85545]Weapons[-]
 [c6c930]Solar Engine[-]
 24"    A:*    H:4+   W:3+   R:-1   D:2   

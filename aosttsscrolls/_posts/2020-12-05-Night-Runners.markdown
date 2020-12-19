@@ -15,7 +15,7 @@ tags: [skaventide]
 
 ```
 [56f442]M     W     B     Sa    [-]
-7     1     4     6     
+7"    1     4     6+    
 [e85545]Weapons[-]
 [c6c930]Eshin Throwing Weapons[-]
 12"    A:1    H:4+   W:5+   R:-    D:1   

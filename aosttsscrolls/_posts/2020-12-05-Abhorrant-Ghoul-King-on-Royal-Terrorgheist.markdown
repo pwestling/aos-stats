@@ -15,8 +15,10 @@ tags: [flesh-eater-courts]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     14    10    4     
+*     14    10    4+    
 [e85545]Weapons[-]
+[c6c930]Death Shriek[-]
+10"    A:1    H:*    W:*    R:*    D:*   
 [c6c930]Gory Talons and Fangs[-]
 1"     A:5    H:3+   W:3+   R:-1   D:1   
 [c6c930]Skeletal Claws[-]

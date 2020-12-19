@@ -15,7 +15,7 @@ tags: [skaventide]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     3     4     6     
+6"    3     4     6+    
 [e85545]Weapons[-]
 [c6c930]Warp-Grinder[-]
 1"     A:1    H:4+   W:3+   R:-2   D:2   

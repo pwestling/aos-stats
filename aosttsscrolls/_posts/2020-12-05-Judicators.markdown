@@ -15,7 +15,7 @@ tags: [stormcast-eternals]
 
 ```
 [56f442]M     W     B     Sa    [-]
-5     2     7     4     
+5"    2     7     4+    
 [e85545]Weapons[-]
 [c6c930]Skybolt Bow[-]
 24"    A:1    H:3+   W:3+   R:-1   D:1   
@@ -23,6 +23,8 @@ tags: [stormcast-eternals]
 12"    A:3    H:3+   W:4+   R:-    D:1   
 [c6c930]Shockbolt Bow[-]
 24"    A:1    H:3+   W:3+   R:-1   D:1   
+[c6c930]Thunderbolt Crossbow[-]
+18"    A:*    H:*    W:*    R:*    D:*   
 [c6c930]Storm Gladius[-]
 1"     A:1    H:3+   W:4+   R:-    D:1   
 ```

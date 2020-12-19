@@ -15,7 +15,7 @@ tags: [tzeentch]
 
 ```
 [56f442]M     W     B     Sa    [-]
-9     4     10    5     
+9"    4     10    5+    
 [e85545]Weapons[-]
 [c6c930]Billowing Warpflame[-]
 18"    A:6    H:4+   W:3+   R:-1   D:D3  

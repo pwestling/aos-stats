@@ -15,8 +15,10 @@ tags: [skaventide]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     3     4     6     
+6"    3     4     6+    
 [e85545]Weapons[-]
+[c6c930]Warpfire Thrower[-]
+8"     A:*    H:*    W:*    R:*    D:*   
 [c6c930]Rusty Knives[-]
 1"     A:2    H:5+   W:5+   R:-    D:1   
 ```

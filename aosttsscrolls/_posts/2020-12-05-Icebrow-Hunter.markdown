@@ -15,7 +15,7 @@ tags: [ogor-mawtribes]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     7     7     5     
+6"    7     7     5+    
 [e85545]Weapons[-]
 [c6c930]Great Throwing Spear[-]
 9"     A:1    H:4+   W:3+   R:-1   D:D3  

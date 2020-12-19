@@ -15,7 +15,7 @@ tags: [slaanesh]
 
 ```
 [56f442]M     W     B     Sa    [-]
-8     9     10    4     
+8"    9     10    4+    
 [e85545]Weapons[-]
 [c6c930]Axe of Dominion[-]
 2"     A:4    H:4+   W:3+   R:-2   D:D3  

@@ -15,7 +15,7 @@ tags: [stormcast-eternals]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     16    9     3     
+*     16    9     3+    
 [e85545]Weapons[-]
 [c6c930]Celestine Hammer[-]
 2"     A:3    H:3+   W:2+   R:-1   D:D3  

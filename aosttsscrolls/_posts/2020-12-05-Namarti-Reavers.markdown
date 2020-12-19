@@ -15,7 +15,7 @@ tags: [idoneth-deepkin]
 
 ```
 [56f442]M     W     B     Sa    [-]
-8     1     6     5     
+8"    1     6     5+    
 [e85545]Weapons[-]
 [c6c930]Whisperbow: Aimed Fire[-]
 18"    A:1    H:4+   W:4+   R:-    D:1   

@@ -15,8 +15,10 @@ tags: [cities-of-sigmar]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     11    6     4     
+*     11    6     4+    
 [e85545]Weapons[-]
+[c6c930]Storm of Shemtek[-]
+18"    A:1    H:*    W:*    R:*    D:*   
 [c6c930]Wizard’s Staff[-]
 2"     A:1    H:4+   W:3+   R:-1   D:D3  
 [c6c930]Arcane Tools[-]

@@ -15,7 +15,7 @@ tags: [ogor-mawtribes]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     4     6     5     
+6"    4     6     5+    
 [e85545]Weapons[-]
 [c6c930]Leadbelcher Gun[-]
 12"    A:D3   H:4+   W:3+   R:-1   D:1   

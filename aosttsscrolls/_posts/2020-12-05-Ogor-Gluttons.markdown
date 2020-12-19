@@ -15,7 +15,7 @@ tags: [ogor-mawtribes]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     4     6     5     
+6"    4     6     5+    
 [e85545]Weapons[-]
 [c6c930]Club(s) or Blade(s)[-]
 1"     A:3    H:3+   W:3+   R:-    D:2   

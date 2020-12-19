@@ -15,7 +15,7 @@ tags: [idoneth-deepkin]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     5     8     4     
+6"    5     8     4+    
 [e85545]Weapons[-]
 [c6c930]Talúnhook[-]
 2"     A:2    H:3+   W:3+   R:-1   D:2   

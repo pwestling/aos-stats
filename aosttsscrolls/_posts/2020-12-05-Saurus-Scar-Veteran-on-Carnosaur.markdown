@@ -15,7 +15,7 @@ tags: [seraphon]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     12    8     4     
+*     12    8     4+    
 [e85545]Weapons[-]
 [c6c930]Celestite Warblade[-]
 1"     A:6    H:3+   W:3+   R:-    D:1   

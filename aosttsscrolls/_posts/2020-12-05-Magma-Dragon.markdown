@@ -15,8 +15,10 @@ tags: [orruk-warclans]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     20    6     4     
+*     20    6     4+    
 [e85545]Weapons[-]
+[c6c930]Brimstone Dragonfire[-]
+18"    A:*    H:*    W:*    R:*    D:*   
 [c6c930]Furnace-hot Jaws[-]
 3"     A:4    H:3+   W:2+   R:*    D:D6  
 [c6c930]Crushing Claws[-]

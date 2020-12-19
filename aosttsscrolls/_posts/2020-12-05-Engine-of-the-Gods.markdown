@@ -15,7 +15,7 @@ tags: [seraphon]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     12    6     4     
+*     12    6     4+    
 [e85545]Weapons[-]
 [c6c930]Meteoric Javelins[-]
 8"     A:4    H:5+   W:4+   R:-    D:1   

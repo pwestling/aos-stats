@@ -15,7 +15,7 @@ tags: [flesh-eater-courts]
 
 ```
 [56f442]M     W     B     Sa    [-]
-12    6     10    4     
+12"   6     10    4+    
 [e85545]Weapons[-]
 [c6c930]Foetid Breath[-]
 9"     A:1    H:4+   W:3+   R:-1   D:D3  

@@ -15,7 +15,7 @@ tags: [kharadron-overlords]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     14    8     4     
+*     14    8     4+    
 [e85545]Weapons[-]
 [c6c930]Heavy Sky Cannon: Shrapnel[-]
 24"    A:D6   H:3+   W:3+   R:-1   D:2   

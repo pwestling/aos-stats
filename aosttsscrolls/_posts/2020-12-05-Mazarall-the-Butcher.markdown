@@ -15,7 +15,7 @@ tags: [khorne]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     12    10    3     
+*     12    10    3+    
 [e85545]Weapons[-]
 [c6c930]Ancyte Shield’s Wrath[-]
 12"    A:D6   H:5+   W:3+   R:-1   D:1   

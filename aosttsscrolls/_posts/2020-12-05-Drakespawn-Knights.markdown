@@ -15,7 +15,7 @@ tags: [cities-of-sigmar]
 
 ```
 [56f442]M     W     B     Sa    [-]
-10    2     7     3     
+10"   2     7     3+    
 [e85545]Weapons[-]
 [c6c930]Barbed Lance[-]
 2"     A:1    H:3+   W:4+   R:-1   D:1   

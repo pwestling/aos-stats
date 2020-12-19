@@ -15,8 +15,10 @@ tags: [gloomspite-gitz]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     14    6     4     
+*     14    6     4+    
 [e85545]Weapons[-]
+[c6c930]Flinger[-]
+36"    A:1    H:*    W:*    R:*    D:*   
 [c6c930]Spider-bows[-]
 16"    A:8    H:5+   W:5+   R:-    D:1   
 [c6c930]Chitinous Legs[-]

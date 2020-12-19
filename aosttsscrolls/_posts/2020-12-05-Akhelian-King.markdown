@@ -15,7 +15,7 @@ tags: [idoneth-deepkin]
 
 ```
 [56f442]M     W     B     Sa    [-]
-14    7     8     3     
+14"   7     8     3+    
 [e85545]Weapons[-]
 [c6c930]Bladed Polearm[-]
 2"     A:3    H:3+   W:3+   R:-2   D:D3  

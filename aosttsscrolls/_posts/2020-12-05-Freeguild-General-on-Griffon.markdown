@@ -15,7 +15,7 @@ tags: [cities-of-sigmar]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     13    7     4     
+*     13    7     4+    
 [e85545]Weapons[-]
 [c6c930]Sigmarite Runesword[-]
 1"     A:5    H:3+   W:4+   R:-1   D:2   

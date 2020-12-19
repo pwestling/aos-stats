@@ -15,7 +15,7 @@ tags: [gloomspite-gitz]
 
 ```
 [56f442]M     W     B     Sa    [-]
-4     8     4     5     
+4"    8     4     5+    
 [e85545]Weapons[-]
 [c6c930]Spit-squigs[-]
 30"    A:6    H:4+   W:3+   R:-    D:D3  

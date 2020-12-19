@@ -15,7 +15,7 @@ tags: [slaves-to-darkness]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     13    7     5     
+*     13    7     5+    
 [e85545]Weapons[-]
 [c6c930]Crushing Fist[-]
 2"     A:1    H:*    W:3+   R:-2   D:D6  

@@ -15,7 +15,7 @@ tags: [legion-of-azgorh]
 
 ```
 [56f442]M     W     B     Sa    [-]
-4     1     6     4     
+4"    1     6     4+    
 [e85545]Weapons[-]
 [c6c930]Pyrelock Fireglaive[-]
 16"    A:1    H:4+   W:4+   R:-1   D:1   

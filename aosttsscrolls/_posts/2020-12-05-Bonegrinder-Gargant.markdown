@@ -15,7 +15,7 @@ tags: [gloomspite-gitz]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     20    7     4     
+*     20    7     4+    
 [e85545]Weapons[-]
 [c6c930]Hurled Boulder[-]
 *      A:1    H:4+   W:2+   R:-2   D:D6  

@@ -15,7 +15,7 @@ tags: [sylvaneth]
 
 ```
 [56f442]M     W     B     Sa    [-]
-5     12    9     3     
+5"    12    9     3+    
 [e85545]Weapons[-]
 [c6c930]Doom Tendril Staff[-]
 18"    A:1    H:*    W:3+   R:-1   D:D6  

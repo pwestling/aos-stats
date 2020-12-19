@@ -15,7 +15,7 @@ tags: [lumineth-realm-lords]
 
 ```
 [56f442]M     W     B     Sa    [-]
-14    2     7     4     
+14"   2     7     4+    
 [e85545]Weapons[-]
 [c6c930]Guardian’s Sword[-]
 1"     A:2    H:3+   W:4+   R:-1   D:1   

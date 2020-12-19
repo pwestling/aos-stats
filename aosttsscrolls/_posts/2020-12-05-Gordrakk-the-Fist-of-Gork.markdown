@@ -15,7 +15,7 @@ tags: [orruk-warclans]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     16    8     3     
+*     16    8     3+    
 [e85545]Weapons[-]
 [c6c930]Innard-bursting Bellow[-]
 8"     A:6    H:2+   W:3+   R:-1   D:1   

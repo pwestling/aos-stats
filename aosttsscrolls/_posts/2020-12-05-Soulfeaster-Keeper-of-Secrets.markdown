@@ -15,7 +15,7 @@ tags: [slaanesh]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     14    10    4     
+*     14    10    4+    
 [e85545]Weapons[-]
 [c6c930]Sinistrous Hand[-]
 1"     A:1    H:2+   W:3+   R:-1   D:1   

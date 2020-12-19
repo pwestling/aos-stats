@@ -15,7 +15,7 @@ tags: [cities-of-sigmar]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     12    6     4     
+*     12    6     4+    
 [e85545]Weapons[-]
 [c6c930]Fiery Breath[-]
 9"     A:*    H:3+   W:3+   R:-1   D:1   

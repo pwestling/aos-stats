@@ -15,7 +15,7 @@ tags: [idoneth-deepkin]
 
 ```
 [56f442]M     W     B     Sa    [-]
-10    12    10    3     
+10"   12    10    3+    
 [e85545]Weapons[-]
 [c6c930]Blasts of Abyssal Energy[-]
 15"    A:D3   H:3+   W:3+   R:-2   D:2   

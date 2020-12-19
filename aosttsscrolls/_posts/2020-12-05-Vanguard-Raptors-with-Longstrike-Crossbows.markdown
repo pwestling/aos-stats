@@ -15,7 +15,7 @@ tags: [stormcast-eternals]
 
 ```
 [56f442]M     W     B     Sa    [-]
-5     2     7     4     
+5"    2     7     4+    
 [e85545]Weapons[-]
 [c6c930]Longstrike Crossbow[-]
 24"    A:1    H:2+   W:3+   R:-2   D:2   

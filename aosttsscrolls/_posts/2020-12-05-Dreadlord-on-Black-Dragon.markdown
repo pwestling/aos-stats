@@ -15,10 +15,12 @@ tags: [cities-of-sigmar]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     14    8     4     
+*     14    8     4+    
 [e85545]Weapons[-]
 [c6c930]Repeater Crossbow[-]
 16"    A:4    H:4+   W:4+   R:-    D:1   
+[c6c930]Noxious Breath[-]
+6"     A:1    H:*    W:*    R:*    D:*   
 [c6c930]Exile Blade[-]
 1"     A:6    H:3+   W:4+   R:-    D:1   
 [c6c930]Lance of Spite[-]

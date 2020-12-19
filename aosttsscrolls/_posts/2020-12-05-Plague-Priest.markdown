@@ -15,7 +15,7 @@ tags: [skaventide]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     5     6     5     
+6"    5     6     5+    
 [e85545]Weapons[-]
 [c6c930]Warpstone-tipped Staff[-]
 2"     A:1    H:4+   W:3+   R:-1   D:D3  

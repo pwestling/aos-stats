@@ -15,8 +15,10 @@ tags: [sylvaneth]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     14    10    3     
+*     14    10    3+    
 [e85545]Weapons[-]
+[c6c930]Soul-sheering Blast[-]
+12"    A:*    H:*    W:*    R:*    D:*   
 [c6c930]Raking Claws[-]
 2"     A:*    H:4+   W:3+   R:-2   D:2   
 [c6c930]Amethyst Fangs[-]

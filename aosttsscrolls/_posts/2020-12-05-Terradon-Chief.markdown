@@ -15,7 +15,7 @@ tags: [seraphon]
 
 ```
 [56f442]M     W     B     Sa    [-]
-16    5     6     6     
+16"   5     6     6+    
 [e85545]Weapons[-]
 [c6c930]Skyblade[-]
 1"     A:3    H:3+   W:4+   R:-1   D:1   

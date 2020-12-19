@@ -15,7 +15,7 @@ tags: [orruk-warclans]
 
 ```
 [56f442]M     W     B     Sa    [-]
-5     7     9     4     
+5"    7     9     4+    
 [e85545]Weapons[-]
 [c6c930]Baleglyph Maul[-]
 2"     A:5    H:3+   W:3+   R:-2   D:1   

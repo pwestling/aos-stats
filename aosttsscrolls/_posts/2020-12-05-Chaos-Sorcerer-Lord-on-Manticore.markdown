@@ -15,7 +15,7 @@ tags: [slaves-to-darkness]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     12    8     4     
+*     12    8     4+    
 [e85545]Weapons[-]
 [c6c930]Sorcerous Reaping Staff[-]
 2"     A:3    H:3+   W:3+   R:-1   D:D3  

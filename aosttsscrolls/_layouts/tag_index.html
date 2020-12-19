@@ -12,6 +12,7 @@
 			<p id="spellSearch">Search by name: <input type="search" id="jetsSearch"></p>
 
 			{% for level in site.data.levels %}
+			{% if level.tag == page.tag %}
 			<a id="{{level.tag}}"></a>
 			<h2 class="post-list-head jetsHide">{{level.name}}</h2>
 			{% assign post_list = site.tags[level.tag] | sort: 'title' %}
@@ -27,6 +28,7 @@
 			{% endfor %}
 			{% endfor %}
 			<a class="post-meta jetsHide" href="#top">Back to top &#8593;</a>
+			{% endif %}
 			{% endfor %}
 		</div>
 	</div>

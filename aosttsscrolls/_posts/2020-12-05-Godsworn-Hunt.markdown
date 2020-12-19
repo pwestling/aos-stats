@@ -15,7 +15,7 @@ tags: [slaves-to-darkness]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     1     6     6     
+6"    1     6     6+    
 [e85545]Weapons[-]
 [c6c930]Hunting Bow[-]
 24"    A:2    H:4+   W:4+   R:-    D:1   

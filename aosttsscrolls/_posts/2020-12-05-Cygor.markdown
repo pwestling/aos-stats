@@ -15,7 +15,7 @@ tags: [beasts-of-chaos]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     14    7     5     
+*     14    7     5+    
 [e85545]Weapons[-]
 [c6c930]Desecrated Boulder[-]
 *      A:1    H:4+   W:2+   R:-2   D:D6  

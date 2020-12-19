@@ -15,7 +15,7 @@ tags: [tzeentch]
 
 ```
 [56f442]M     W     B     Sa    [-]
-16    6     7     5     
+16"   6     7     5+    
 [e85545]Weapons[-]
 [c6c930]Tzeentchian Runestaff[-]
 18"    A:1    H:3+   W:4+   R:-    D:D3  

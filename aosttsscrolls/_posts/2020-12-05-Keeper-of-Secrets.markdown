@@ -15,7 +15,7 @@ tags: [slaanesh]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     14    10    4     
+*     14    10    4+    
 [e85545]Weapons[-]
 [c6c930]Living Whip[-]
 6"     A:1    H:3+   W:3+   R:-1   D:1   

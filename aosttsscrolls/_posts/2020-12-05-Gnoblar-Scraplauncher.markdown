@@ -15,7 +15,7 @@ tags: [ogor-mawtribes]
 
 ```
 [56f442]M     W     B     Sa    [-]
-7     9     5     4     
+7"    9     5     4+    
 [e85545]Weapons[-]
 [c6c930]Piles of Old Scrap[-]
 6"-36" A:3    H:3+   W:4+   R:-    D:D3  

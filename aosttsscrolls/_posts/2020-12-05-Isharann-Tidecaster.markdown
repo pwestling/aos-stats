@@ -15,7 +15,7 @@ tags: [idoneth-deepkin]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     5     7     6     
+6"    5     7     6+    
 [e85545]Weapons[-]
 [c6c930]Pelagic Staff[-]
 1"     A:2    H:3+   W:3+   R:-    D:D3  

@@ -15,7 +15,7 @@ tags: [orruk-warclans]
 
 ```
 [56f442]M     W     B     Sa    [-]
-4     3     6     4     
+4"    3     6     4+    
 [e85545]Weapons[-]
 [c6c930]Krusha Weapons[-]
 1"     A:4    H:3+   W:3+   R:-1   D:1   

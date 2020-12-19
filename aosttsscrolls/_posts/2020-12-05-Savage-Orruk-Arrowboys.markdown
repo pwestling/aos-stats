@@ -15,7 +15,7 @@ tags: [orruk-warclans]
 
 ```
 [56f442]M     W     B     Sa    [-]
-5     2     5     6     
+5"    2     5     6+    
 [e85545]Weapons[-]
 [c6c930]Stinga Bow[-]
 18"    A:2    H:5+   W:4+   R:-    D:1   

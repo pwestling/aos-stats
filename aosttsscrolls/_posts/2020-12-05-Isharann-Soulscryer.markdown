@@ -15,7 +15,7 @@ tags: [idoneth-deepkin]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     5     7     6     
+6"    5     7     6+    
 [e85545]Weapons[-]
 [c6c930]Scryfish Shoal[-]
 18"    A:8    H:5+   W:5+   R:-    D:1   

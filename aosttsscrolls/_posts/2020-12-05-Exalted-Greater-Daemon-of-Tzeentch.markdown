@@ -15,7 +15,7 @@ tags: [tzeentch]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     20    10    4     
+*     20    10    4+    
 [e85545]Weapons[-]
 [c6c930]Staff of Tzeentch[-]
 3"     A:3    H:3+   W:*    R:-    D:2   

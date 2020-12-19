@@ -15,7 +15,7 @@ tags: [flesh-eater-courts]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     14    10    4     
+*     14    10    4+    
 [e85545]Weapons[-]
 [c6c930]Pestilential Breath[-]
 9"     A:1    H:3+   W:*    R:-3   D:D6  

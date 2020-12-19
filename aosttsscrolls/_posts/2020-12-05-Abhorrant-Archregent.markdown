@@ -15,7 +15,7 @@ tags: [flesh-eater-courts]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     7     10    4     
+6"    7     10    4+    
 [e85545]Weapons[-]
 [c6c930]Gory Talons and Fangs[-]
 1"     A:7    H:3+   W:3+   R:-1   D:1   

@@ -15,7 +15,7 @@ tags: [slaves-to-darkness]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     6     8     5     
+6"    6     8     5+    
 [e85545]Weapons[-]
 [c6c930]Warlord Axe[-]
 1"     A:1    H:3+   W:3+   R:-    D:1   

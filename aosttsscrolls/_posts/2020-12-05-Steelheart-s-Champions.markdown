@@ -15,7 +15,7 @@ tags: [stormcast-eternals]
 
 ```
 [56f442]M     W     B     Sa    [-]
-5     2     7     4     
+5"    2     7     4+    
 [e85545]Weapons[-]
 [c6c930]Severin’s Broadsword[-]
 1"     A:3    H:3+   W:4+   R:-1   D:2   

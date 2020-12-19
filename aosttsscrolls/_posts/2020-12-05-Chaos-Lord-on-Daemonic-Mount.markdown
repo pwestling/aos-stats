@@ -15,7 +15,7 @@ tags: [slaves-to-darkness]
 
 ```
 [56f442]M     W     B     Sa    [-]
-10    8     8     4     
+10"   8     8     4+    
 [e85545]Weapons[-]
 [c6c930]Cursed Warhammer[-]
 1"     A:4    H:3+   W:3+   R:-1   D:2   

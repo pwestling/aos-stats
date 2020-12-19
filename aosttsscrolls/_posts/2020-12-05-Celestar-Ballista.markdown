@@ -15,7 +15,7 @@ tags: [stormcast-eternals]
 
 ```
 [56f442]M     W     B     Sa    [-]
-3     7     7     4     
+3"    7     7     4+    
 [e85545]Weapons[-]
 [c6c930]Celestar Stormbolts: Single Shot[-]
 36"    A:1    H:3+   W:3+   R:-2   D:1   

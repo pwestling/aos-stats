@@ -15,7 +15,7 @@ tags: [gloomspite-gitz]
 
 ```
 [56f442]M     W     B     Sa    [-]
-2     6     6     4     
+2"    6     6     4+    
 [e85545]Weapons[-]
 [c6c930]Moon-cutta[-]
 1"     A:5    H:3+   W:4+   R:-    D:1   

@@ -15,8 +15,10 @@ tags: [stormcast-eternals]
 
 ```
 [56f442]M     W     B     Sa    [-]
-10    5     7     3     
+10"   5     7     3+    
 [e85545]Weapons[-]
+[c6c930]Storm Blast[-]
+12"    A:1    H:4+   W:*    R:*    D:*   
 [c6c930]Thunderaxe[-]
 2"     A:3    H:4+   W:3+   R:-1   D:2   
 [c6c930]Claws and Fangs[-]

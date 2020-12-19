@@ -15,7 +15,7 @@ tags: [tzeentch]
 
 ```
 [56f442]M     W     B     Sa    [-]
-16    5     10    5     
+16"   5     10    5+    
 [e85545]Weapons[-]
 [c6c930]Sharpened Quills[-]
 1"     A:2    H:5+   W:5+   R:-    D:1   

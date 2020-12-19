@@ -15,7 +15,7 @@ tags: [ossiarch-bonereapers]
 
 ```
 [56f442]M     W     B     Sa    [-]
-9     16    10    3     
+9"    16    10    3+    
 [e85545]Weapons[-]
 [c6c930]Gaze of Nagash[-]
 12"    A:1    H:3+   W:2+   R:-1   D:D6  

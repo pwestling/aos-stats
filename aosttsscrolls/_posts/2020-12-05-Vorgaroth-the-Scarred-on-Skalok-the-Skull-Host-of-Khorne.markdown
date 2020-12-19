@@ -15,7 +15,7 @@ tags: [khorne]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     30    10    3     
+*     30    10    3+    
 [e85545]Weapons[-]
 [c6c930]White-hot Balefire[-]
 20"    A:3    H:4+   W:2+   R:-3   D:D6  

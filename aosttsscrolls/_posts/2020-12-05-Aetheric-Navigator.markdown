@@ -15,7 +15,7 @@ tags: [kharadron-overlords]
 
 ```
 [56f442]M     W     B     Sa    [-]
-4     5     7     3     
+4"    5     7     3+    
 [e85545]Weapons[-]
 [c6c930]Ranging Pistol[-]
 15"    A:2    H:3+   W:3+   R:-1   D:1   

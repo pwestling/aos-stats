@@ -15,7 +15,7 @@ tags: [gloomspite-gitz]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     4     5     5     
+6"    4     5     5+    
 [e85545]Weapons[-]
 [c6c930]Noxious Vomit[-]
 6"     A:1    H:2+   W:3+   R:-2   D:D3  

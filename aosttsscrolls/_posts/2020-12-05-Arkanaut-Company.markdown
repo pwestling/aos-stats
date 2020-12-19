@@ -15,7 +15,7 @@ tags: [kharadron-overlords]
 
 ```
 [56f442]M     W     B     Sa    [-]
-4     1     6     4     
+4"    1     6     4+    
 [e85545]Weapons[-]
 [c6c930]Privateer Pistol[-]
 9"     A:2    H:4+   W:4+   R:-    D:1   

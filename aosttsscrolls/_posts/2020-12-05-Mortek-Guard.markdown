@@ -15,7 +15,7 @@ tags: [ossiarch-bonereapers]
 
 ```
 [56f442]M     W     B     Sa    [-]
-4     1     10    4     
+4"    1     10    4+    
 [e85545]Weapons[-]
 [c6c930]Nadirite Blade[-]
 1"     A:2    H:3+   W:4+   R:-1   D:1   

@@ -15,7 +15,7 @@ tags: [sylvaneth]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     16    10    3     
+*     16    10    3+    
 [e85545]Weapons[-]
 [c6c930]Spear of Kurnoth[-]
 *      A:1    H:3+   W:2+   R:-2   D:D6  

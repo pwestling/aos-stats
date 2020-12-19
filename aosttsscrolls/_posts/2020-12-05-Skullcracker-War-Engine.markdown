@@ -15,7 +15,7 @@ tags: [legion-of-azgorh]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     11    7     3     
+*     11    7     3+    
 [e85545]Weapons[-]
 [c6c930]Hammers and Picks[-]
 3"     A:2D6  H:3+   W:*    R:-1   D:D3  

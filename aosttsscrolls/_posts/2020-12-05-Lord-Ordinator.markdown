@@ -15,7 +15,7 @@ tags: [stormcast-eternals]
 
 ```
 [56f442]M     W     B     Sa    [-]
-5     5     9     4     
+5"    5     9     4+    
 [e85545]Weapons[-]
 [c6c930]Astral Hammers[-]
 1"     A:6    H:4+   W:3+   R:-    D:1   

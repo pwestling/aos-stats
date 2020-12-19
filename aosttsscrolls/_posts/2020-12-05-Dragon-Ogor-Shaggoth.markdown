@@ -15,7 +15,7 @@ tags: [beasts-of-chaos]
 
 ```
 [56f442]M     W     B     Sa    [-]
-8     10    7     4     
+8"    10    7     4+    
 [e85545]Weapons[-]
 [c6c930]Storm-wrought Axe[-]
 2"     A:3    H:3+   W:3+   R:-1   D:3   

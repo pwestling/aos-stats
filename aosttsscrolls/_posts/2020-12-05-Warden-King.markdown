@@ -15,7 +15,7 @@ tags: [cities-of-sigmar]
 
 ```
 [56f442]M     W     B     Sa    [-]
-4     5     8     3     
+4"    5     8     3+    
 [e85545]Weapons[-]
 [c6c930]Rune Hammer[-]
 1"     A:4    H:3+   W:3+   R:-1   D:D3  

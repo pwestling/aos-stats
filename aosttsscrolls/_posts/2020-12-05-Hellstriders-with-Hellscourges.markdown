@@ -15,7 +15,7 @@ tags: [slaanesh]
 
 ```
 [56f442]M     W     B     Sa    [-]
-14    2     6     4     
+14"   2     6     4+    
 [e85545]Weapons[-]
 [c6c930]Hellscourge[-]
 3"     A:1    H:3+   W:4+   R:-    D:1   

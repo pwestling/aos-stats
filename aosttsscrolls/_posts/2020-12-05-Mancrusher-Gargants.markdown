@@ -15,7 +15,7 @@ tags: [sons-of-behemat]
 
 ```
 [56f442]M     W     B     Sa    [-]
-8     12    7     5     
+8"    12    7     5+    
 [e85545]Weapons[-]
 [c6c930]’Eadbutt[-]
 1"     A:1    H:4+   W:3+   R:-3   D:*   

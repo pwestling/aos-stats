@@ -15,7 +15,7 @@ tags: [beasts-of-chaos]
 
 ```
 [56f442]M     W     B     Sa    [-]
-10    6     6     4     
+10"   6     6     4+    
 [e85545]Weapons[-]
 [c6c930]Despoiler Axe[-]
 1"     A:2    H:4+   W:3+   R:-1   D:1   

@@ -15,7 +15,7 @@ tags: [skaventide]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     5     6     5     
+6"    5     6     5+    
 [e85545]Weapons[-]
 [c6c930]Warpstone-tipped Lash[-]
 3"     A:6    H:3+   W:4+   R:-1   D:1   

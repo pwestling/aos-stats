@@ -15,7 +15,7 @@ tags: [seraphon]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     35    8     4     
+*     35    8     4+    
 [e85545]Weapons[-]
 [c6c930]Gargantuan Jaws[-]
 2"     A:3    H:4+   W:3+   R:-2   D:*   

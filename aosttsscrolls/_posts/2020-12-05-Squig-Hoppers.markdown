@@ -15,7 +15,7 @@ tags: [gloomspite-gitz]
 
 ```
 [56f442]M     W     B     Sa    [-]
-3     2     4     6     
+3"    2     4     6+    
 [e85545]Weapons[-]
 [c6c930]Slitta[-]
 1"     A:1    H:5+   W:5+   R:-    D:1   

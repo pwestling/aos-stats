@@ -15,7 +15,7 @@ tags: [tzeentch]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     14    10    4     
+*     14    10    4+    
 [e85545]Weapons[-]
 [c6c930]Staff of Tomorrow[-]
 3"     A:3    H:3+   W:*    R:-1   D:2   

@@ -15,7 +15,7 @@ tags: [orruk-warclans]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     16    10    4     
+*     16    10    4+    
 [e85545]Weapons[-]
 [c6c930]Boulder Fists[-]
 3"     A:2    H:3+   W:*    R:-2   D:D6  

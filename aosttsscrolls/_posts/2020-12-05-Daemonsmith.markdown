@@ -15,8 +15,10 @@ tags: [legion-of-azgorh]
 
 ```
 [56f442]M     W     B     Sa    [-]
-4     5     7     4     
+4"    5     7     4+    
 [e85545]Weapons[-]
+[c6c930]Blood of Hashut[-]
+6"     A:*    H:*    W:*    R:*    D:*   
 [c6c930]Darkforged Weapon[-]
 1"     A:2    H:3+   W:3+   R:-1   D:D3  
 [c6c930]Pyre Rune Staff[-]

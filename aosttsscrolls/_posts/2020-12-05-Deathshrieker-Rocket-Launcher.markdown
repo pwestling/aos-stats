@@ -15,7 +15,7 @@ tags: [legion-of-azgorh]
 
 ```
 [56f442]M     W     B     Sa    [-]
-3     6     6     4     
+3"    6     6     4+    
 [e85545]Weapons[-]
 [c6c930]Deathshrieker Rockets[-]
 36"    A:3    H:4+   W:3+   R:-1   D:D3  

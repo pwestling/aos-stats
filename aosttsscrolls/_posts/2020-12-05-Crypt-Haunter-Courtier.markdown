@@ -15,7 +15,7 @@ tags: [flesh-eater-courts]
 
 ```
 [56f442]M     W     B     Sa    [-]
-7     6     10    4     
+7"    6     10    4+    
 [e85545]Weapons[-]
 [c6c930]Massive Bone Club[-]
 1"     A:3    H:4+   W:3+   R:-    D:3   

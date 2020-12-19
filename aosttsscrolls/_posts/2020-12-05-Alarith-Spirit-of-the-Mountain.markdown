@@ -15,7 +15,7 @@ tags: [lumineth-realm-lords]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     12    10    3     
+6"    12    10    3+    
 [e85545]Weapons[-]
 [c6c930]Geomantic Blast[-]
 *      A:1    H:3+   W:2+   R:-2   D:D6  

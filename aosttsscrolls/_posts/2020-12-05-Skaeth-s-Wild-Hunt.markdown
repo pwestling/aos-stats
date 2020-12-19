@@ -15,7 +15,7 @@ tags: [sylvaneth]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     1     6     5     
+6"    1     6     5+    
 [e85545]Weapons[-]
 [c6c930]Seeker Bow[-]
 18"    A:1    H:3+   W:4+   R:-1   D:1   

@@ -15,7 +15,7 @@ tags: [cities-of-sigmar]
 
 ```
 [56f442]M     W     B     Sa    [-]
-12    2     5     5     
+12"   2     5     5+    
 [e85545]Weapons[-]
 [c6c930]Brace of Pistols[-]
 9"     A:2    H:4+   W:3+   R:-1   D:1   

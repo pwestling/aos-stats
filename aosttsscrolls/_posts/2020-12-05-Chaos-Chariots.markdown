@@ -15,7 +15,7 @@ tags: [slaves-to-darkness]
 
 ```
 [56f442]M     W     B     Sa    [-]
-12    7     6     4     
+12"   7     6     4+    
 [e85545]Weapons[-]
 [c6c930]Lashing Whip[-]
 2"     A:2    H:4+   W:4+   R:-    D:1   

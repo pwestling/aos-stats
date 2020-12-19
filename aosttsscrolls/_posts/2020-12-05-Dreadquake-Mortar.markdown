@@ -15,7 +15,7 @@ tags: [legion-of-azgorh]
 
 ```
 [56f442]M     W     B     Sa    [-]
-3     10    6     4     
+3"    10    6     4+    
 [e85545]Weapons[-]
 [c6c930]Dreadquake Bomb[-]
 40"    A:1    H:4+   W:3+   R:-2   D:D6  

@@ -15,7 +15,7 @@ tags: [legion-of-azgorh]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     13    8     4     
+*     13    8     4+    
 [e85545]Weapons[-]
 [c6c930]Gouts of Flame[-]
 16"    A:6    H:4+   W:4+   R:-    D:1   

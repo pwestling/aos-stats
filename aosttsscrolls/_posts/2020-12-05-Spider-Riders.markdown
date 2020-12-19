@@ -15,7 +15,7 @@ tags: [gloomspite-gitz]
 
 ```
 [56f442]M     W     B     Sa    [-]
-10    2     4     5     
+10"   2     4     5+    
 [e85545]Weapons[-]
 [c6c930]Spider-bow[-]
 16"    A:2    H:5+   W:5+   R:-    D:1   

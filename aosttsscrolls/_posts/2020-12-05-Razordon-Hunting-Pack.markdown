@@ -15,7 +15,7 @@ tags: [seraphon]
 
 ```
 [56f442]M     W     B     Sa    [-]
-8     1     5     4     
+8"    1     5     4+    
 [e85545]Weapons[-]
 [c6c930]Volley of Spikes[-]
 18"    A:2D6  H:3+   W:4+   R:-    D:1   

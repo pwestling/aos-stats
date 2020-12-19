@@ -15,7 +15,7 @@ tags: [orruk-warclans]
 
 ```
 [56f442]M     W     B     Sa    [-]
-5     7     8     5     
+5"    7     8     5+    
 [e85545]Weapons[-]
 [c6c930]Wurrgog Staff and Bone Shiv[-]
 1"     A:4    H:4+   W:3+   R:-    D:D3  

@@ -15,7 +15,7 @@ tags: [khorne]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     16    10    4     
+*     16    10    4+    
 [e85545]Weapons[-]
 [c6c930]Burning Blood[-]
 8"     A:1    H:3+   W:*    R:-    D:D6  

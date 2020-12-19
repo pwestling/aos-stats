@@ -15,7 +15,7 @@ tags: [khorne]
 
 ```
 [56f442]M     W     B     Sa    [-]
-5     2     6     4     
+5"    2     6     4+    
 [e85545]Weapons[-]
 [c6c930]Magore’s Belly Maw[-]
 1"     A:1    H:4+   W:3+   R:-1   D:D3  

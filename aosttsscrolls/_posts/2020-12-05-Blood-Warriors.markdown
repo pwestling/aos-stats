@@ -15,7 +15,7 @@ tags: [khorne]
 
 ```
 [56f442]M     W     B     Sa    [-]
-5     2     6     4     
+5"    2     6     4+    
 [e85545]Weapons[-]
 [c6c930]Goreaxe(s)[-]
 1"     A:2    H:3+   W:4+   R:-    D:1   

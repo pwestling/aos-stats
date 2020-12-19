@@ -15,7 +15,7 @@ tags: [kharadron-overlords]
 
 ```
 [56f442]M     W     B     Sa    [-]
-12    2     7     4     
+12"   2     7     4+    
 [e85545]Weapons[-]
 [c6c930]Aethermatic Volley Gun[-]
 24"    A:6    H:4+   W:4+   R:-1   D:1   

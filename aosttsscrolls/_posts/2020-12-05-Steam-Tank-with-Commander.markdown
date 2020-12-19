@@ -15,7 +15,7 @@ tags: [cities-of-sigmar]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     12    8     3     
+*     12    8     3+    
 [e85545]Weapons[-]
 [c6c930]Steam Cannon[-]
 *      A:1    H:4+   W:2+   R:-2   D:D6  

@@ -15,7 +15,7 @@ tags: [lumineth-realm-lords]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     1     6     4     
+6"    1     6     4+    
 [e85545]Weapons[-]
 [c6c930]Champion’s Blade[-]
 1"     A:2    H:3+   W:4+   R:-1   D:1   

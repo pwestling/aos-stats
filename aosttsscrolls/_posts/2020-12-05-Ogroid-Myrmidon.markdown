@@ -15,7 +15,7 @@ tags: [slaves-to-darkness]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     8     8     4     
+6"    8     8     4+    
 [e85545]Weapons[-]
 [c6c930]Gladiator Spear[-]
 18"    A:1    H:3+   W:3+   R:-1   D:D3  

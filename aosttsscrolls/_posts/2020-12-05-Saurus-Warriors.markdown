@@ -15,7 +15,7 @@ tags: [seraphon]
 
 ```
 [56f442]M     W     B     Sa    [-]
-5     1     8     4     
+5"    1     8     4+    
 [e85545]Weapons[-]
 [c6c930]Celestite Club[-]
 1"     A:1    H:4+   W:3+   R:-1   D:1   

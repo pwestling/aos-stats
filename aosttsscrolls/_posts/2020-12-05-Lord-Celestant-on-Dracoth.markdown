@@ -15,7 +15,7 @@ tags: [stormcast-eternals]
 
 ```
 [56f442]M     W     B     Sa    [-]
-10    7     9     3     
+10"   7     9     3+    
 [e85545]Weapons[-]
 [c6c930]Stormstrike Glaive[-]
 2"     A:4    H:3+   W:4+   R:-1   D:1   

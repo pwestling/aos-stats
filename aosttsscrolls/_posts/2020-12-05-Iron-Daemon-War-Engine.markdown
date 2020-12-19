@@ -15,7 +15,7 @@ tags: [legion-of-azgorh]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     11    7     3     
+*     11    7     3+    
 [e85545]Weapons[-]
 [c6c930]Steam Cannonade[-]
 14"    A:2D6  H:4+   W:*    R:-2   D:1   

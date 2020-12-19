@@ -15,7 +15,7 @@ tags: [sons-of-behemat]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     35    7     4     
+*     35    7     4+    
 [e85545]Weapons[-]
 [c6c930]Hurled Boulder[-]
 *      A:1    H:3+   W:2+   R:-3   D:4   

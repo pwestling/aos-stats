@@ -15,7 +15,7 @@ tags: [ossiarch-bonereapers]
 
 ```
 [56f442]M     W     B     Sa    [-]
-5     4     10    3     
+5"    4     10    3+    
 [e85545]Weapons[-]
 [c6c930]Dread Halberd[-]
 2"     A:2    H:3+   W:3+   R:-2   D:2   

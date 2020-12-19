@@ -15,7 +15,7 @@ tags: [cities-of-sigmar]
 
 ```
 [56f442]M     W     B     Sa    [-]
-5     1     5     6     
+5"    1     5     6+    
 [e85545]Weapons[-]
 [c6c930]Freeguild Crossbow[-]
 24"    A:1    H:4+   W:3+   R:-    D:1   

@@ -15,7 +15,7 @@ tags: [cities-of-sigmar]
 
 ```
 [56f442]M     W     B     Sa    [-]
-12    2     8     5     
+12"   2     8     5+    
 [e85545]Weapons[-]
 [c6c930]Hunting Spear[-]
 2"     A:2    H:3+   W:4+   R:-1   D:1   

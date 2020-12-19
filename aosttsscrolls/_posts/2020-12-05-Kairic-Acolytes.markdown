@@ -15,7 +15,7 @@ tags: [tzeentch]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     1     5     5     
+6"    1     5     5+    
 [e85545]Weapons[-]
 [c6c930]Sorcerous Bolt[-]
 18"    A:1    H:4+   W:3+   R:-    D:1   

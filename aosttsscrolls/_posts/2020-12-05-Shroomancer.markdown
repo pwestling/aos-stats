@@ -15,7 +15,7 @@ tags: [gloomspite-gitz]
 
 ```
 [56f442]M     W     B     Sa    [-]
-5     4     5     6     
+5"    4     5     6+    
 [e85545]Weapons[-]
 [c6c930]Moon Staff and Jaggedy Knife[-]
 2"     A:2    H:4+   W:3+   R:-1   D:D3  

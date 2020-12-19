@@ -15,7 +15,7 @@ tags: [skaventide]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     6     6     3     
+6"    6     6     3+    
 [e85545]Weapons[-]
 [c6c930]Stormcage Halberd[-]
 2"     A:1    H:3+   W:3+   R:-2   D:D3  

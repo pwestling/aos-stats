@@ -15,7 +15,7 @@ tags: [cities-of-sigmar]
 
 ```
 [56f442]M     W     B     Sa    [-]
-12    6     6     5     
+12"   6     6     5+    
 [e85545]Weapons[-]
 [c6c930]Ravager Harpoon[-]
 18"    A:2    H:3+   W:3+   R:-1   D:D3  

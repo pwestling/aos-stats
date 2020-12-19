@@ -15,7 +15,7 @@ tags: [legion-of-azgorh]
 
 ```
 [56f442]M     W     B     Sa    [-]
-7     8     8     4     
+7"    8     8     4+    
 [e85545]Weapons[-]
 [c6c930]Darktide Axe[-]
 2"     A:5    H:3+   W:3+   R:-2   D:3   

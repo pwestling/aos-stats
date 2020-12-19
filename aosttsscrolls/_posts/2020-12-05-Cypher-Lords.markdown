@@ -15,7 +15,7 @@ tags: [slaves-to-darkness]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     1     5     6     
+6"    1     5     6+    
 [e85545]Weapons[-]
 [c6c930]Throwing Stars and Chakrams[-]
 8"     A:1    H:4+   W:5+   R:-    D:1   

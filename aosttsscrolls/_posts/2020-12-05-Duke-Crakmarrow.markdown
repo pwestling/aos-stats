@@ -15,7 +15,7 @@ tags: [flesh-eater-courts]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     4     10    5     
+6"    4     10    5+    
 [e85545]Weapons[-]
 [c6c930]Halberd[-]
 2"     A:3    H:3+   W:3+   R:-1   D:2   

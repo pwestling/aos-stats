@@ -15,7 +15,7 @@ tags: [khorne]
 
 ```
 [56f442]M     W     B     Sa    [-]
-5     3     7     4     
+5"    3     7     4+    
 [e85545]Weapons[-]
 [c6c930]Gore-slick Blades, Daemonblades, Spinecleavers and Soultearers[-]
 1"     A:4    H:3+   W:3+   R:-    D:1   

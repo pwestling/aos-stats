@@ -15,7 +15,7 @@ tags: [gloomspite-gitz]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     16    10    5     
+*     16    10    5+    
 [e85545]Weapons[-]
 [c6c930]Puff Spores[-]
 8"     A:1    H:5+   W:5+   R:-    D:D3  

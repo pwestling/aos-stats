@@ -15,7 +15,7 @@ tags: [cities-of-sigmar]
 
 ```
 [56f442]M     W     B     Sa    [-]
-10    4     6     3     
+10"   4     6     3+    
 [e85545]Weapons[-]
 [c6c930]Demigryph Knight’s Halberd[-]
 2"     A:3    H:3+   W:3+   R:-1   D:1   

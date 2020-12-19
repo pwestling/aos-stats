@@ -15,7 +15,7 @@ tags: [cities-of-sigmar]
 
 ```
 [56f442]M     W     B     Sa    [-]
-16    4     6     4     
+16"   4     6     4+    
 [e85545]Weapons[-]
 [c6c930]Brimstone Gun[-]
 16"    A:3    H:3+   W:3+   R:-1   D:1   

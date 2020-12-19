@@ -15,7 +15,7 @@ tags: [fyreslayers]
 
 ```
 [56f442]M     W     B     Sa    [-]
-4     2     7     5     
+4"    2     7     5+    
 [e85545]Weapons[-]
 [c6c930]Fyresteel Handaxes[-]
 1"     A:2    H:3+   W:3+   R:-    D:1   

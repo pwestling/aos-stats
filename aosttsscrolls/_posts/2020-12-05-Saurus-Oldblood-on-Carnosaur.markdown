@@ -15,7 +15,7 @@ tags: [seraphon]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     12    8     4     
+*     12    8     4+    
 [e85545]Weapons[-]
 [c6c930]Sunbolt Gauntlet[-]
 18"    A:D6   H:3+   W:4+   R:-1   D:1   

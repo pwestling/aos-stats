@@ -15,7 +15,7 @@ tags: [cities-of-sigmar]
 
 ```
 [56f442]M     W     B     Sa    [-]
-3     7     5     4     
+3"    7     5     4+    
 [e85545]Weapons[-]
 [c6c930]Volley of Shots (1 Deck)[-]
 24"    A:D6   H:4+   W:3+   R:-1   D:1   

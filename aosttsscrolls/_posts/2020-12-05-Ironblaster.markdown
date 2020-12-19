@@ -15,7 +15,7 @@ tags: [ogor-mawtribes]
 
 ```
 [56f442]M     W     B     Sa    [-]
-7     9     6     4     
+7"    9     6     4+    
 [e85545]Weapons[-]
 [c6c930]Ironblaster Cannon: Cannon Ball[-]
 24"    A:1    H:4+   W:2+   R:-2   D:D6  

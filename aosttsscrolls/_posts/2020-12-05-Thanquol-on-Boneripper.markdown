@@ -15,8 +15,10 @@ tags: [skaventide]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     14    7     4     
+*     14    7     4+    
 [e85545]Weapons[-]
+[c6c930]Warpfire Projectors[-]
+8"     A:*    H:*    W:*    R:*    D:*   
 [c6c930]Staff of the Horned Rat[-]
 2"     A:2    H:4+   W:3+   R:-1   D:D3  
 [c6c930]Warpfire Braziers[-]

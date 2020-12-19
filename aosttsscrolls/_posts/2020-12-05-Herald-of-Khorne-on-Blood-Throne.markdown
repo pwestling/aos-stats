@@ -15,7 +15,7 @@ tags: [khorne]
 
 ```
 [56f442]M     W     B     Sa    [-]
-8     7     10    4     
+8"    7     10    4+    
 [e85545]Weapons[-]
 [c6c930]Blade of Blood[-]
 1"     A:4    H:3+   W:3+   R:-1   D:1   

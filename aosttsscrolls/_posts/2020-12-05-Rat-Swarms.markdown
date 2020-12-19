@@ -15,7 +15,7 @@ tags: [skaventide]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     4     10    -     
+6"    4     10    -     
 [e85545]Weapons[-]
 [c6c930]Gnawing Teeth[-]
 1"     A:5    H:5+   W:5+   R:-    D:1   

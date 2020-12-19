@@ -15,8 +15,10 @@ tags: [cities-of-sigmar]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     14    7     5     
+*     14    7     5+    
 [e85545]Weapons[-]
+[c6c930]Noxious Breath[-]
+6"     A:1    H:*    W:*    R:*    D:*   
 [c6c930]Witch Rod[-]
 1"     A:1    H:4+   W:3+   R:-1   D:D3  
 [c6c930]Darkling Sword[-]

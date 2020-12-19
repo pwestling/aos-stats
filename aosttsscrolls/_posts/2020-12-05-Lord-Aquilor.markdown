@@ -15,7 +15,7 @@ tags: [stormcast-eternals]
 
 ```
 [56f442]M     W     B     Sa    [-]
-12    7     9     3     
+12"   7     9     3+    
 [e85545]Weapons[-]
 [c6c930]Heavy Boltstorm Pistol[-]
 9"     A:4    H:3+   W:3+   R:-    D:1   

@@ -15,7 +15,7 @@ tags: [gloomspite-gitz]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     14    6     4     
+*     14    6     4+    
 [e85545]Weapons[-]
 [c6c930]Chitinous Legs[-]
 3"     A:*    H:4+   W:3+   R:-1   D:1   

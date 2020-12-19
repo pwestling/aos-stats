@@ -15,7 +15,7 @@ tags: [slaves-to-darkness]
 
 ```
 [56f442]M     W     B     Sa    [-]
-9     9     8     3     
+9"    9     8     3+    
 [e85545]Weapons[-]
 [c6c930]Hexed Battle-axe[-]
 1"     A:5    H:3+   W:3+   R:-    D:2   

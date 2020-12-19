@@ -35,9 +35,9 @@ def getstat(name, append=""):
     except:
       return gd["value"]
 
-move = getstat("Move")
+move = getstat("Move", '"')
 wounds = getstat("Wounds")
-save = getstat("Save")
+save = getstat("Save", "+")
 brave = getstat("Bravery")
 
 
@@ -48,15 +48,25 @@ weapon_table = target.parent.parent
 weapon_rows = weapon_table.find_all(class_="wsDataRow")
 
 def getattr(cells, index):
-  val = cells[index].contents[0]
+  i = 0
+  reali = 0
+  while i <= index:
+    curr = cells[reali]
+    reali = reali+1
+    if curr.get("colspan"):
+      i = i + int(curr.get("colspan"))
+    else:
+      i = i + 1
+  val = cells[reali-1].contents[0]
   if isinstance(val, NavigableString):
     return str(val)
   else:
     return "*" 
+
 weapons = []
 for row in weapon_rows:
   result = {}
-  if len(row.contents) == 8:
+  if "wsDataCell" in row["class"] or "wsLastDataCell" in row["class"]:
     weapons.append(result)
     cells = list(row.contents)
     result["name"] = getattr(cells, 1)

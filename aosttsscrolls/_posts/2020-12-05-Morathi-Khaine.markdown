@@ -15,7 +15,7 @@ tags: [daughters-of-khaine]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     6     8     4     
+6"    6     8     4+    
 [e85545]Weapons[-]
 [c6c930]Heartrender[-]
 2"     A:3    H:3+   W:3+   R:-1   D:D3  

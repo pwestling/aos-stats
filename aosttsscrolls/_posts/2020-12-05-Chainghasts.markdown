@@ -15,7 +15,7 @@ tags: [nighthaunt]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     2     10    4     
+6"    2     10    4+    
 [e85545]Weapons[-]
 [c6c930]Ghastflails[-]
 15"    A:D3   H:4+   W:3+   R:-2   D:1   

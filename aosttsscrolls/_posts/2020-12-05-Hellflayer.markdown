@@ -15,7 +15,7 @@ tags: [slaanesh]
 
 ```
 [56f442]M     W     B     Sa    [-]
-12    7     10    4     
+12"   7     10    4+    
 [e85545]Weapons[-]
 [c6c930]Piercing Claws[-]
 1"     A:4    H:3+   W:4+   R:-1   D:1   

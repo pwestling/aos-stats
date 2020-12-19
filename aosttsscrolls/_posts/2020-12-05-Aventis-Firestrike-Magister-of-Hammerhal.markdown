@@ -15,7 +15,7 @@ tags: [stormcast-eternals]
 
 ```
 [56f442]M     W     B     Sa    [-]
-14    10    9     3     
+14"   10    9     3+    
 [e85545]Weapons[-]
 [c6c930]Staff of Hammerhal[-]
 2"     A:4    H:3+   W:3+   R:-1   D:D3  

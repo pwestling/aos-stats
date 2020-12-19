@@ -15,7 +15,7 @@ tags: [gloomspite-gitz]
 
 ```
 [56f442]M     W     B     Sa    [-]
-12    2     4     5     
+12"   2     4     5+    
 [e85545]Weapons[-]
 [c6c930]Grot Bow[-]
 18"    A:1    H:4+   W:4+   R:-    D:1   

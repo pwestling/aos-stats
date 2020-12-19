@@ -15,7 +15,7 @@ tags: [beasts-of-chaos]
 
 ```
 [56f442]M     W     B     Sa    [-]
-8     5     6     4     
+8"    5     6     4+    
 [e85545]Weapons[-]
 [c6c930]Paired Ancient Weapons[-]
 1"     A:6    H:3+   W:3+   R:-    D:1   

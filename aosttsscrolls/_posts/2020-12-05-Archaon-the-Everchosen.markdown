@@ -15,7 +15,7 @@ tags: [slaves-to-darkness]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     20    10    3     
+*     20    10    3+    
 [e85545]Weapons[-]
 [c6c930]The Slayer of Kings[-]
 1"     A:4    H:2+   W:3+   R:-2   D:3   

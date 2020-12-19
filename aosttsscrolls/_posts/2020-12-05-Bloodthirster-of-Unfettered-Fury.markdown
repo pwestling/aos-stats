@@ -15,7 +15,7 @@ tags: [khorne]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     14    10    4     
+*     14    10    4+    
 [e85545]Weapons[-]
 [c6c930]Lash of Khorne[-]
 12"    A:*    H:3+   W:3+   R:-1   D:D3  

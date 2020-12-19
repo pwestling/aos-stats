@@ -15,7 +15,7 @@ tags: [tzeentch]
 
 ```
 [56f442]M     W     B     Sa    [-]
-5     1     10    6     
+5"    1     10    6+    
 [e85545]Weapons[-]
 [c6c930]Magical Flames[-]
 12"    A:*    H:5+   W:4+   R:-    D:1   

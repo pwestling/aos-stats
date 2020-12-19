@@ -15,7 +15,7 @@ tags: [idoneth-deepkin]
 
 ```
 [56f442]M     W     B     Sa    [-]
-10    16    6     *     
+10"   16    6     *     
 [e85545]Weapons[-]
 [c6c930]Razorshell Harpoon Launchers[-]
 24"    A:8    H:3+   W:3+   R:-1   D:1   

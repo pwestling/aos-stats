@@ -15,7 +15,7 @@ tags: [khorne]
 
 ```
 [56f442]M     W     B     Sa    [-]
-8     7     10    4     
+8"    7     10    4+    
 [e85545]Weapons[-]
 [c6c930]Burning Skulls[-]
 30"    A:1    H:3+   W:3+   R:-2   D:D6  

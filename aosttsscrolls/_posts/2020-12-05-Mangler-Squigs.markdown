@@ -15,7 +15,7 @@ tags: [gloomspite-gitz]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     12    10    4     
+*     12    10    4+    
 [e85545]Weapons[-]
 [c6c930]Huge Fang-filled Gobs[-]
 2"     A:4    H:*    W:3+   R:-1   D:D6  

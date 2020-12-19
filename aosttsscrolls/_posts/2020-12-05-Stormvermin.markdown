@@ -15,7 +15,7 @@ tags: [skaventide]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     1     5     5     
+6"    1     5     5+    
 [e85545]Weapons[-]
 [c6c930]Rusty Halberd[-]
 2"     A:2    H:4+   W:3+   R:-1   D:1   

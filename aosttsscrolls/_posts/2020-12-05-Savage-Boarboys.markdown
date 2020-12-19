@@ -15,7 +15,7 @@ tags: [orruk-warclans]
 
 ```
 [56f442]M     W     B     Sa    [-]
-12    3     5     6     
+12"   3     5     6+    
 [e85545]Weapons[-]
 [c6c930]Chompa[-]
 1"     A:3    H:4+   W:3+   R:-    D:1   

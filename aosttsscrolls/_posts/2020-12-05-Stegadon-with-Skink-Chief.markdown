@@ -15,12 +15,14 @@ tags: [seraphon]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     10    5     4     
+*     10    5     4+    
 [e85545]Weapons[-]
 [c6c930]Meteoric Javelins[-]
 8"     A:4    H:5+   W:4+   R:-    D:1   
 [c6c930]Skystreak Bow[-]
 24"    A:3    H:3+   W:3+   R:-1   D:3   
+[c6c930]Sunfire Throwers[-]
+8"     A:1    H:*    W:*    R:*    D:*   
 [c6c930]Meteoric Warspear[-]
 1"     A:3    H:3+   W:3+   R:-1   D:1   
 [c6c930]Massive Horns[-]

@@ -15,7 +15,7 @@ tags: [khorne]
 
 ```
 [56f442]M     W     B     Sa    [-]
-8     5     10    4     
+8"    5     10    4+    
 [e85545]Weapons[-]
 [c6c930]Gore-slick Claws[-]
 1"     A:4    H:3+   W:4+   R:-    D:1   

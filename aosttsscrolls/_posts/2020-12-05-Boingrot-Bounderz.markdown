@@ -15,7 +15,7 @@ tags: [gloomspite-gitz]
 
 ```
 [56f442]M     W     B     Sa    [-]
-2     2     5     4     
+2"    2     5     4+    
 [e85545]Weapons[-]
 [c6c930]Pokin’ Lance[-]
 2"     A:2    H:4+   W:4+   R:-1   D:1   

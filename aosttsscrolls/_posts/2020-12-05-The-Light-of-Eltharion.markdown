@@ -15,7 +15,7 @@ tags: [lumineth-realm-lords]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     7     10    3     
+6"    7     10    3+    
 [e85545]Weapons[-]
 [c6c930]Fangsword of Eltharion[-]
 1"     A:4    H:2+   W:3+   R:-3   D:D3  

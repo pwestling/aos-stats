@@ -15,7 +15,7 @@ tags: [nighthaunt]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     12    10    4     
+*     12    10    4+    
 [e85545]Weapons[-]
 [c6c930]Cairn Wraith’s Soulreach Grasp[-]
 10"    A:1    H:3+   W:3+   R:-3   D:D3  

@@ -15,7 +15,7 @@ tags: [tzeentch]
 
 ```
 [56f442]M     W     B     Sa    [-]
-16    6     8     4     
+16"   6     8     4+    
 [e85545]Weapons[-]
 [c6c930]Fireglaive of Tzeentch[-]
 2"     A:3    H:3+   W:4+   R:-    D:D3  

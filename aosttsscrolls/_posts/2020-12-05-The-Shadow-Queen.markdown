@@ -15,7 +15,7 @@ tags: [daughters-of-khaine]
 
 ```
 [56f442]M     W     B     Sa    [-]
-*     12    10    4     
+*     12    10    4+    
 [e85545]Weapons[-]
 [c6c930]Gaze of the Shadow Queen[-]
 18"    A:1    H:2+   W:2+   R:-3   D:D6  

@@ -15,7 +15,7 @@ tags: [lumineth-realm-lords]
 
 ```
 [56f442]M     W     B     Sa    [-]
-4     2     7     4     
+4"    2     7     4+    
 [e85545]Weapons[-]
 [c6c930]Stone Mallet or Diamondpick Hammer[-]
 1"     A:2    H:3+   W:3+   R:-1   D:1   

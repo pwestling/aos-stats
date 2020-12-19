@@ -15,7 +15,7 @@ tags: [cities-of-sigmar]
 
 ```
 [56f442]M     W     B     Sa    [-]
-6     1     6     5     
+6"    1     6     5+    
 [e85545]Weapons[-]
 [c6c930]Repeater Crossbow[-]
 16"    A:2    H:4+   W:4+   R:-    D:1   

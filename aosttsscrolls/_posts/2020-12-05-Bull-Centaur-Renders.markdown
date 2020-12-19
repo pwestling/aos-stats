@@ -15,7 +15,7 @@ tags: [legion-of-azgorh]
 
 ```
 [56f442]M     W     B     Sa    [-]
-7     5     6     4     
+7"    5     6     4+    
 [e85545]Weapons[-]
 [c6c930]Darkforged Weapon[-]
 1"     A:3    H:4+   W:3+   R:-1   D:2   
