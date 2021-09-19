@@ -1,20 +1,20 @@
 ---
-layout: post
-title:  "Black Coach"
-date:   2020-12-05
-source: Wahapedia
-tags: [nighthaunt]
----
-
-**Black Coach**
-
-**Stat Block**
-```
-12/12 Black Coach
-```
-
-```
-[56f442]M     W     B     Sa    [-]
+    layout: post
+    title:  "Black Coach"
+    date:   2020-12-05 00:00:00
+    source: Wahapedia
+    tags: [nighthaunt]
+    ---
+    
+    **Black Coach**
+    
+    **Stat Block**
+    ```
+    12/12 Black Coach
+    ```
+    
+    ```
+    [56f442]M     W     B     Sa    [-]
 *     12    10    4+    
 [e85545]Weapons[-]
 [c6c930]Cairn Wraith’s Soulreach Grasp[-]
@@ -27,6 +27,7 @@ tags: [nighthaunt]
 1"     A:*    H:4+   W:4+   R:-1   D:1   
 [c6c930]Nightmares’ Hooves and Teeth[-]
 1"     A:8    H:4+   W:4+   R:-    D:1   
-```
-
-
+    ```
+    
+    
+    

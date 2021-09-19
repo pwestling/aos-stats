@@ -1,20 +1,20 @@
 ---
-layout: post
-title:  "Bullgors"
-date:   2020-12-05
-source: Wahapedia
-tags: [beasts-of-chaos]
----
-
-**Bullgors**
-
-**Stat Block**
-```
-4/4 Bullgor
-```
-
-```
-[56f442]M     W     B     Sa    [-]
+    layout: post
+    title:  "Bullgors"
+    date:   2020-12-05 00:00:00
+    source: Wahapedia
+    tags: [beasts-of-chaos]
+    ---
+    
+    **Bullgors**
+    
+    **Stat Block**
+    ```
+    4/4 Bullgor
+    ```
+    
+    ```
+    [56f442]M     W     B     Sa    [-]
 7"    4     6     5+    
 [e85545]Weapons[-]
 [c6c930]Bullgor Axe(s)[-]
@@ -23,6 +23,7 @@ tags: [beasts-of-chaos]
 1"     A:2    H:4+   W:3+   R:-2   D:3   
 [c6c930]Bullgor Horns[-]
 1"     A:2    H:4+   W:4+   R:-    D:1   
-```
-
-
+    ```
+    
+    
+    

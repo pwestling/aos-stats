@@ -1,20 +1,20 @@
 ---
-layout: post
-title:  "Katakros, Mortarch of the Necropolis "
-date:   2020-12-05
-source: Wahapedia
-tags: [ossiarch-bonereapers]
----
-
-**Katakros, Mortarch of the Necropolis **
-
-**Stat Block**
-```
-20/20 Katakros, Mortarch of the Necropolis 
-```
-
-```
-[56f442]M     W     B     Sa    [-]
+    layout: post
+    title:  "Katakros, Mortarch of the Necropolis "
+    date:   2020-12-05 00:00:00
+    source: Wahapedia
+    tags: [ossiarch-bonereapers]
+    ---
+    
+    **Katakros, Mortarch of the Necropolis **
+    
+    **Stat Block**
+    ```
+    20/20 Katakros, Mortarch of the Necropolis 
+    ```
+    
+    ```
+    [56f442]M     W     B     Sa    [-]
 4"    20    10    3+    
 [e85545]Weapons[-]
 [c6c930]Inda-Khaat[-]
@@ -29,6 +29,7 @@ tags: [ossiarch-bonereapers]
 1"     A:3    H:3+   W:3+   R:-1   D:1   
 [c6c930]Spirit Dagger[-]
 1"     A:3    H:3+   W:3+   R:-1   D:1   
-```
-
-
+    ```
+    
+    
+    

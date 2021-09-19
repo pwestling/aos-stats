@@ -1,20 +1,20 @@
 ---
-layout: post
-title:  "The Shadow Queen"
-date:   2020-12-05
-source: Wahapedia
-tags: [daughters-of-khaine]
----
-
-**The Shadow Queen**
-
-**Stat Block**
-```
-12/12 The Shadow Queen
-```
-
-```
-[56f442]M     W     B     Sa    [-]
+    layout: post
+    title:  "The Shadow Queen"
+    date:   2020-12-05 00:00:00
+    source: Wahapedia
+    tags: [daughters-of-khaine]
+    ---
+    
+    **The Shadow Queen**
+    
+    **Stat Block**
+    ```
+    12/12 The Shadow Queen
+    ```
+    
+    ```
+    [56f442]M     W     B     Sa    [-]
 *     12    10    4+    
 [e85545]Weapons[-]
 [c6c930]Gaze of the Shadow Queen[-]
@@ -25,6 +25,7 @@ tags: [daughters-of-khaine]
 1"     A:2D6  H:3+   W:3+   R:-    D:1   
 [c6c930]Envenomed Tail[-]
 3"     A:1    H:3+   W:3+   R:-2   D:*   
-```
-
-
+    ```
+    
+    
+    

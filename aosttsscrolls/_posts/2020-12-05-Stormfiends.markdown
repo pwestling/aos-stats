@@ -1,20 +1,20 @@
 ---
-layout: post
-title:  "Stormfiends"
-date:   2020-12-05
-source: Wahapedia
-tags: [skaventide]
----
-
-**Stormfiends**
-
-**Stat Block**
-```
-6/6 Stormfiend
-```
-
-```
-[56f442]M     W     B     Sa    [-]
+    layout: post
+    title:  "Stormfiends"
+    date:   2020-12-05 00:00:00
+    source: Wahapedia
+    tags: [skaven]
+    ---
+    
+    **Stormfiends**
+    
+    **Stat Block**
+    ```
+    6/6 Stormfiend
+    ```
+    
+    ```
+    [56f442]M     W     B     Sa    [-]
 6"    6     6     4+    
 [e85545]Weapons[-]
 [c6c930]Ratling Cannons[-]
@@ -31,6 +31,7 @@ tags: [skaventide]
 1"     A:4    H:4+   W:3+   R:-1   D:2   
 [c6c930]Clubbing Blows[-]
 1"     A:4    H:4+   W:3+   R:-    D:2   
-```
-
-
+    ```
+    
+    
+    

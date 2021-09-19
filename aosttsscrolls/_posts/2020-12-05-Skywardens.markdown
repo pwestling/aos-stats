@@ -1,20 +1,20 @@
 ---
-layout: post
-title:  "Skywardens"
-date:   2020-12-05
-source: Wahapedia
-tags: [kharadron-overlords]
----
-
-**Skywardens**
-
-**Stat Block**
-```
-2/2 Skywarden
-```
-
-```
-[56f442]M     W     B     Sa    [-]
+    layout: post
+    title:  "Skywardens"
+    date:   2020-12-05 00:00:00
+    source: Wahapedia
+    tags: [kharadron-overlords]
+    ---
+    
+    **Skywardens**
+    
+    **Stat Block**
+    ```
+    2/2 Skywarden
+    ```
+    
+    ```
+    [56f442]M     W     B     Sa    [-]
 12"   2     7     4+    
 [e85545]Weapons[-]
 [c6c930]Aethermatic Volley Gun[-]
@@ -29,6 +29,7 @@ tags: [kharadron-overlords]
 2"     A:2    H:4+   W:3+   R:-1   D:D3  
 [c6c930]Gun Butt[-]
 1"     A:1    H:4+   W:5+   R:-    D:1   
-```
-
-
+    ```
+    
+    
+    

@@ -1,20 +1,20 @@
 ---
-layout: post
-title:  "Zarbag’s Gitz"
-date:   2020-12-05
-source: Wahapedia
-tags: [gloomspite-gitz]
----
-
-**Zarbag’s Gitz**
-
-**Stat Block**
-```
- Zarbag’s Gitz
-```
-
-```
-[56f442]M     W     B     Sa    [-]
+    layout: post
+    title:  "Zarbag’s Gitz"
+    date:   2020-12-05 00:00:00
+    source: Wahapedia
+    tags: [gloomspite-gitz]
+    ---
+    
+    **Zarbag’s Gitz**
+    
+    **Stat Block**
+    ```
+     Zarbag’s Gitz
+    ```
+    
+    ```
+    [56f442]M     W     B     Sa    [-]
 5"    1     4     6+    
 [e85545]Weapons[-]
 [c6c930]Moonclan Bow[-]
@@ -25,6 +25,7 @@ tags: [gloomspite-gitz]
 2"     A:1    H:5+   W:4+   R:-    D:1   
 [c6c930]Slitta[-]
 1"     A:1    H:5+   W:5+   R:-    D:1   
-```
-
-
+    ```
+    
+    
+    

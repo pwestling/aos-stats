@@ -1,20 +1,20 @@
 ---
-layout: post
-title:  "Fateskimmer, Herald of Tzeentch on Burning Chariot"
-date:   2020-12-05
-source: Wahapedia
-tags: [tzeentch]
----
-
-**Fateskimmer, Herald of Tzeentch on Burning Chariot**
-
-**Stat Block**
-```
-8/8 Fateskimmer, Herald of Tzeentch on Burning Chariot
-```
-
-```
-[56f442]M     W     B     Sa    [-]
+    layout: post
+    title:  "Fateskimmer, Herald of Tzeentch on Burning Chariot"
+    date:   2020-12-05 00:00:00
+    source: Wahapedia
+    tags: [disciples-of-tzeentch]
+    ---
+    
+    **Fateskimmer, Herald of Tzeentch on Burning Chariot**
+    
+    **Stat Block**
+    ```
+    8/8 Fateskimmer, Herald of Tzeentch on Burning Chariot
+    ```
+    
+    ```
+    [56f442]M     W     B     Sa    [-]
 16"   8     10    5+    
 [e85545]Weapons[-]
 [c6c930]Magical Flames[-]
@@ -25,6 +25,7 @@ tags: [tzeentch]
 1"     A:2    H:4+   W:4+   R:-    D:1   
 [c6c930]Lamprey Bite[-]
 1"     A:6    H:4+   W:3+   R:-    D:1   
-```
-
-
+    ```
+    
+    
+    

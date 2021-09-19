@@ -1,20 +1,20 @@
 ---
-layout: post
-title:  "Ogroid Thaumaturge"
-date:   2020-12-05
-source: Wahapedia
-tags: [tzeentch]
----
-
-**Ogroid Thaumaturge**
-
-**Stat Block**
-```
-8/8 Ogroid Thaumaturge
-```
-
-```
-[56f442]M     W     B     Sa    [-]
+    layout: post
+    title:  "Ogroid Thaumaturge"
+    date:   2020-12-05 00:00:00
+    source: Wahapedia
+    tags: [disciples-of-tzeentch]
+    ---
+    
+    **Ogroid Thaumaturge**
+    
+    **Stat Block**
+    ```
+    8/8 Ogroid Thaumaturge
+    ```
+    
+    ```
+    [56f442]M     W     B     Sa    [-]
 6"    8     8     5+    
 [e85545]Weapons[-]
 [c6c930]Great Horns[-]
@@ -23,6 +23,7 @@ tags: [tzeentch]
 2"     A:3    H:3+   W:3+   R:-1   D:D3  
 [c6c930]Cloven Hooves[-]
 1"     A:4    H:4+   W:3+   R:-    D:1   
-```
-
-
+    ```
+    
+    
+    

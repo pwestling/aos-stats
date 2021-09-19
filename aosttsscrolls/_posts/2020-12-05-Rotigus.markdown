@@ -1,0 +1,29 @@
+---
+    layout: post
+    title:  "Rotigus"
+    date:   2020-12-05 00:00:00
+    source: Wahapedia
+    tags: [maggotkin-of-nurgle]
+    ---
+    
+    **Rotigus**
+    
+    **Stat Block**
+    ```
+    16/16 Rotigu
+    ```
+    
+    ```
+    [56f442]M     W     B     Sa    [-]
+5"    16    10    4+    
+[e85545]Weapons[-]
+[c6c930]Gnarlrod[-]
+3"     A:5    H:*    W:3+   R:-1   D:2   
+[c6c930]Fanged Maw[-]
+1"     A:D3   H:3+   W:*    R:-2   D:2   
+[c6c930]Host of Nurglings[-]
+1"     A:3    H:5+   W:5+   R:-    D:1   
+    ```
+    
+    
+    

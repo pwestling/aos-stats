@@ -1,20 +1,20 @@
 ---
-layout: post
-title:  "Skink Oracle on Troglodon"
-date:   2020-12-05
-source: Wahapedia
-tags: [seraphon]
----
-
-**Skink Oracle on Troglodon**
-
-**Stat Block**
-```
-12/12 Skink Oracle on Troglodon
-```
-
-```
-[56f442]M     W     B     Sa    [-]
+    layout: post
+    title:  "Skink Oracle on Troglodon"
+    date:   2020-12-05 00:00:00
+    source: Wahapedia
+    tags: [seraphon]
+    ---
+    
+    **Skink Oracle on Troglodon**
+    
+    **Stat Block**
+    ```
+    12/12 Skink Oracle on Troglodon
+    ```
+    
+    ```
+    [56f442]M     W     B     Sa    [-]
 *     12    6     4+    
 [e85545]Weapons[-]
 [c6c930]Noxious Spittle[-]
@@ -25,6 +25,7 @@ tags: [seraphon]
 2"     A:2    H:4+   W:3+   R:-    D:2   
 [c6c930]Venomous Jaws[-]
 2"     A:3    H:4+   W:*    R:-    D:2   
-```
-
-
+    ```
+    
+    
+    

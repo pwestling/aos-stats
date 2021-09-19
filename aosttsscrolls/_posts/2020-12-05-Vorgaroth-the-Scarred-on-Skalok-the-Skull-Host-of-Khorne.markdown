@@ -1,20 +1,20 @@
 ---
-layout: post
-title:  "Vorgaroth the Scarred on Skalok the Skull Host of Khorne"
-date:   2020-12-05
-source: Wahapedia
-tags: [khorne]
----
-
-**Vorgaroth the Scarred on Skalok the Skull Host of Khorne**
-
-**Stat Block**
-```
-30/30 Vorgaroth the Scarred on Skalok the Skull Host of Khorne
-```
-
-```
-[56f442]M     W     B     Sa    [-]
+    layout: post
+    title:  "Vorgaroth the Scarred on Skalok the Skull Host of Khorne"
+    date:   2020-12-05 00:00:00
+    source: Wahapedia
+    tags: [blades-of-khorne]
+    ---
+    
+    **Vorgaroth the Scarred on Skalok the Skull Host of Khorne**
+    
+    **Stat Block**
+    ```
+    30/30 Vorgaroth the Scarred on Skalok the Skull Host of Khorne
+    ```
+    
+    ```
+    [56f442]M     W     B     Sa    [-]
 *     30    10    3+    
 [e85545]Weapons[-]
 [c6c930]White-hot Balefire[-]
@@ -27,6 +27,7 @@ tags: [khorne]
 3"     A:2    H:4+   W:*    R:-2   D:3   
 [c6c930]Brass-plated Tail[-]
 3"     A:*    H:4+   W:4+   R:-1   D:3   
-```
-
-
+    ```
+    
+    
+    

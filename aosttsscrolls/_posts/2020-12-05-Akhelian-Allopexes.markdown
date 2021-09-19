@@ -1,20 +1,20 @@
 ---
-layout: post
-title:  "Akhelian Allopexes"
-date:   2020-12-05
-source: Wahapedia
-tags: [idoneth-deepkin]
----
-
-**Akhelian Allopexes**
-
-**Stat Block**
-```
-8/8 Akhelian Allopex
-```
-
-```
-[56f442]M     W     B     Sa    [-]
+    layout: post
+    title:  "Akhelian Allopexes"
+    date:   2020-12-05 00:00:00
+    source: Wahapedia
+    tags: [idoneth-deepkin]
+    ---
+    
+    **Akhelian Allopexes**
+    
+    **Stat Block**
+    ```
+    8/8 Akhelian Allopex
+    ```
+    
+    ```
+    [56f442]M     W     B     Sa    [-]
 14"   8     6     4+    
 [e85545]Weapons[-]
 [c6c930]Razorshell Harpoon Launcher[-]
@@ -25,6 +25,7 @@ tags: [idoneth-deepkin]
 1"     A:6    H:3+   W:3+   R:-    D:1   
 [c6c930]Ferocious Bite[-]
 1"     A:3    H:3+   W:3+   R:-2   D:2   
-```
-
-
+    ```
+    
+    
+    

@@ -1,0 +1,25 @@
+---
+    layout: post
+    title:  "Harpies"
+    date:   2020-12-05 00:00:00
+    source: Wahapedia
+    tags: [beasts-of-chaos]
+    ---
+    
+    **Harpies**
+    
+    **Stat Block**
+    ```
+     Harpy
+    ```
+    
+    ```
+    [56f442]M     W     B     Sa    [-]
+16"   1     3     6+    
+[e85545]Weapons[-]
+[c6c930]Claws and Fangs[-]
+1"     A:2    H:4+   W:4+   R:-    D:1   
+    ```
+    
+    
+    

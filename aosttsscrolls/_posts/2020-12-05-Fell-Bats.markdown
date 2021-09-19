@@ -1,0 +1,25 @@
+---
+    layout: post
+    title:  "Fell Bats"
+    date:   2020-12-05 00:00:00
+    source: Wahapedia
+    tags: [soulblight-gravelords]
+    ---
+    
+    **Fell Bats**
+    
+    **Stat Block**
+    ```
+    3/3 Fell Bat
+    ```
+    
+    ```
+    [56f442]M     W     B     Sa    [-]
+14"   3     10    6+    
+[e85545]Weapons[-]
+[c6c930]Elongated Fangs[-]
+1"     A:3    H:4+   W:4+   R:-    D:1   
+    ```
+    
+    
+    

@@ -1,20 +1,20 @@
 ---
-layout: post
-title:  "Stabbas"
-date:   2020-12-05
-source: Wahapedia
-tags: [gloomspite-gitz]
----
-
-**Stabbas**
-
-**Stat Block**
-```
- Stabba
-```
-
-```
-[56f442]M     W     B     Sa    [-]
+    layout: post
+    title:  "Stabbas"
+    date:   2020-12-05 00:00:00
+    source: Wahapedia
+    tags: [gloomspite-gitz]
+    ---
+    
+    **Stabbas**
+    
+    **Stat Block**
+    ```
+     Stabba
+    ```
+    
+    ```
+    [56f442]M     W     B     Sa    [-]
 5"    1     4     6+    
 [e85545]Weapons[-]
 [c6c930]Stabba[-]
@@ -23,6 +23,7 @@ tags: [gloomspite-gitz]
 2"     A:1    H:5+   W:4+   R:-    D:1   
 [c6c930]Barbed Net[-]
 2"     A:3    H:4+   W:5+   R:-    D:1   
-```
-
-
+    ```
+    
+    
+    

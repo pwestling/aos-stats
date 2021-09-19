@@ -1,20 +1,20 @@
 ---
-layout: post
-title:  "Akhelian Leviadon"
-date:   2020-12-05
-source: Wahapedia
-tags: [idoneth-deepkin]
----
-
-**Akhelian Leviadon**
-
-**Stat Block**
-```
-16/16 Akhelian Leviadon
-```
-
-```
-[56f442]M     W     B     Sa    [-]
+    layout: post
+    title:  "Akhelian Leviadon"
+    date:   2020-12-05 00:00:00
+    source: Wahapedia
+    tags: [idoneth-deepkin]
+    ---
+    
+    **Akhelian Leviadon**
+    
+    **Stat Block**
+    ```
+    16/16 Akhelian Leviadon
+    ```
+    
+    ```
+    [56f442]M     W     B     Sa    [-]
 10"   16    6     *     
 [e85545]Weapons[-]
 [c6c930]Razorshell Harpoon Launchers[-]
@@ -25,6 +25,7 @@ tags: [idoneth-deepkin]
 2"     A:4    H:2+   W:3+   R:-1   D:*   
 [c6c930]Crushing Jaws[-]
 1"     A:2    H:*    W:2+   R:-2   D:3   
-```
-
-
+    ```
+    
+    
+    
