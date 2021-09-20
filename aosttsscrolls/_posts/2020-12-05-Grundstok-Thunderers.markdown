@@ -1,20 +1,20 @@
 ---
-    layout: post
-    title:  "Grundstok Thunderers"
-    date:   2020-12-05 00:00:00
-    source: Wahapedia
-    tags: [kharadron-overlords]
-    ---
-    
-    **Grundstok Thunderers**
-    
-    **Stat Block**
-    ```
-    2/2 Grundstok Thunderer
-    ```
-    
-    ```
-    [56f442]M     W     B     Sa    [-]
+layout: post
+title:  "Grundstok Thunderers"
+date:   2020-12-05 00:00:00
+source: Wahapedia
+tags: [kharadron-overlords]
+---
+
+**Grundstok Thunderers**
+
+**Stat Block**
+```
+2/2 Grundstok Thunderer
+```
+
+```
+[56f442]M     W     B     Sa    [-]
 4"    2     7     4+    
 [e85545]Weapons[-]
 [c6c930]Aethershot Rifle[-]
@@ -33,7 +33,5 @@
 3"     A:D3   H:4+   W:4+   R:-1   D:1   
 [c6c930]Gun Butt[-]
 1"     A:1    H:4+   W:4+   R:-    D:1   
-    ```
-    
-    
+```
     

@@ -1,27 +1,25 @@
 ---
-    layout: post
-    title:  "Fiends"
-    date:   2020-12-05 00:00:00
-    source: Wahapedia
-    tags: [hedonites-of-slaanesh]
-    ---
-    
-    **Fiends**
-    
-    **Stat Block**
-    ```
-    4/4 Fiend
-    ```
-    
-    ```
-    [56f442]M     W     B     Sa    [-]
+layout: post
+title:  "Fiends"
+date:   2020-12-05 00:00:00
+source: Wahapedia
+tags: [hedonites-of-slaanesh]
+---
+
+**Fiends**
+
+**Stat Block**
+```
+4/4 Fiend
+```
+
+```
+[56f442]M     W     B     Sa    [-]
 12"   4     10    5+    
 [e85545]Weapons[-]
 [c6c930]Deadly Pincers[-]
 1"     A:4    H:3+   W:3+   R:-1   D:1   
 [c6c930]Barbed Stinger[-]
 2"     A:1    H:3+   W:3+   R:-1   D:*   
-    ```
-    
-    
+```
     

@@ -1,25 +1,23 @@
 ---
-    layout: post
-    title:  "Nightmaw"
-    date:   2020-12-05 00:00:00
-    source: Wahapedia
-    tags: [slaves-to-darkness]
-    ---
-    
-    **Nightmaw**
-    
-    **Stat Block**
-    ```
-    6/6 Nightmaw
-    ```
-    
-    ```
-    [56f442]M     W     B     Sa    [-]
+layout: post
+title:  "Nightmaw"
+date:   2020-12-05 00:00:00
+source: Wahapedia
+tags: [slaves-to-darkness]
+---
+
+**Nightmaw**
+
+**Stat Block**
+```
+6/6 Nightmaw
+```
+
+```
+[56f442]M     W     B     Sa    [-]
 2"    6     10    4+    
 [e85545]Weapons[-]
 [c6c930]Razor-tipped Tentacles[-]
 1"     A:2D6  H:3+   W:4+   R:-1   D:1   
-    ```
-    
-    
+```
     

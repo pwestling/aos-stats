@@ -1,20 +1,20 @@
 ---
-    layout: post
-    title:  "Great Unclean One"
-    date:   2020-12-05 00:00:00
-    source: Wahapedia
-    tags: [maggotkin-of-nurgle]
-    ---
-    
-    **Great Unclean One**
-    
-    **Stat Block**
-    ```
-    16/16 Great Unclean One
-    ```
-    
-    ```
-    [56f442]M     W     B     Sa    [-]
+layout: post
+title:  "Great Unclean One"
+date:   2020-12-05 00:00:00
+source: Wahapedia
+tags: [maggotkin-of-nurgle]
+---
+
+**Great Unclean One**
+
+**Stat Block**
+```
+16/16 Great Unclean One
+```
+
+```
+[56f442]M     W     B     Sa    [-]
 5"    16    10    4+    
 [e85545]Weapons[-]
 [c6c930]Noxious Bile[-]
@@ -29,7 +29,5 @@
 2"     A:4    H:4+   W:3+   R:-1   D:1   
 [c6c930]Host of Nurglings[-]
 1"     A:3    H:5+   W:5+   R:-    D:1   
-    ```
-    
-    
+```
     

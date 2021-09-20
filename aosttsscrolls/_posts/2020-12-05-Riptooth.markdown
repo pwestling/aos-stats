@@ -1,25 +1,23 @@
 ---
-    layout: post
-    title:  "Riptooth"
-    date:   2020-12-05 00:00:00
-    source: Wahapedia
-    tags: [blades-of-khorne]
-    ---
-    
-    **Riptooth**
-    
-    **Stat Block**
-    ```
-    2/2 Riptooth
-    ```
-    
-    ```
-    [56f442]M     W     B     Sa    [-]
+layout: post
+title:  "Riptooth"
+date:   2020-12-05 00:00:00
+source: Wahapedia
+tags: [blades-of-khorne]
+---
+
+**Riptooth**
+
+**Stat Block**
+```
+2/2 Riptooth
+```
+
+```
+[56f442]M     W     B     Sa    [-]
 8"    2     10    5+    
 [e85545]Weapons[-]
 [c6c930]Blood-dark Claws[-]
 1"     A:4    H:3+   W:4+   R:-    D:1   
-    ```
-    
-    
+```
     

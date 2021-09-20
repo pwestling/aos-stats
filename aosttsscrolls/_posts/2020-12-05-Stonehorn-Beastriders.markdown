@@ -1,20 +1,20 @@
 ---
-    layout: post
-    title:  "Stonehorn Beastriders"
-    date:   2020-12-05 00:00:00
-    source: Wahapedia
-    tags: [ogor-mawtribes]
-    ---
-    
-    **Stonehorn Beastriders**
-    
-    **Stat Block**
-    ```
-    12/12 Stonehorn Beastrider
-    ```
-    
-    ```
-    [56f442]M     W     B     Sa    [-]
+layout: post
+title:  "Stonehorn Beastriders"
+date:   2020-12-05 00:00:00
+source: Wahapedia
+tags: [ogor-mawtribes]
+---
+
+**Stonehorn Beastriders**
+
+**Stat Block**
+```
+12/12 Stonehorn Beastrider
+```
+
+```
+[56f442]M     W     B     Sa    [-]
 *     12    7     4+    
 [e85545]Weapons[-]
 [c6c930]Harpoon Launcher[-]
@@ -27,7 +27,5 @@
 2"     A:*    H:4+   W:3+   R:-2   D:3   
 [c6c930]Crushing Hooves[-]
 1"     A:D6   H:3+   W:*    R:-1   D:D3  
-    ```
-    
-    
+```
     

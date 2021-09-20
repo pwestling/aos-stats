@@ -1,20 +1,20 @@
 ---
-    layout: post
-    title:  "War Altar of Sigmar"
-    date:   2020-12-05 00:00:00
-    source: Wahapedia
-    tags: [cities-of-sigmar]
-    ---
-    
-    **War Altar of Sigmar**
-    
-    **Stat Block**
-    ```
-    11/11 War Altar of Sigmar
-    ```
-    
-    ```
-    [56f442]M     W     B     Sa    [-]
+layout: post
+title:  "War Altar of Sigmar"
+date:   2020-12-05 00:00:00
+source: Wahapedia
+tags: [cities-of-sigmar]
+---
+
+**War Altar of Sigmar**
+
+**Stat Block**
+```
+11/11 War Altar of Sigmar
+```
+
+```
+[56f442]M     W     B     Sa    [-]
 *     11    7     4+    
 [e85545]Weapons[-]
 [c6c930]Light of Banishment[-]
@@ -27,7 +27,5 @@
 1"     A:1    H:4+   W:3+   R:-    D:D3  
 [c6c930]Steel-shod Hooves[-]
 1"     A:4    H:4+   W:4+   R:-    D:1   
-    ```
-    
-    
+```
     

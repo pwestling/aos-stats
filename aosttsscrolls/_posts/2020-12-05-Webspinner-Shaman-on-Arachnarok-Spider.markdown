@@ -1,20 +1,20 @@
 ---
-    layout: post
-    title:  "Webspinner Shaman on Arachnarok Spider"
-    date:   2020-12-05 00:00:00
-    source: Wahapedia
-    tags: [gloomspite-gitz]
-    ---
-    
-    **Webspinner Shaman on Arachnarok Spider**
-    
-    **Stat Block**
-    ```
-    14/14 Webspinner Shaman on Arachnarok Spider
-    ```
-    
-    ```
-    [56f442]M     W     B     Sa    [-]
+layout: post
+title:  "Webspinner Shaman on Arachnarok Spider"
+date:   2020-12-05 00:00:00
+source: Wahapedia
+tags: [gloomspite-gitz]
+---
+
+**Webspinner Shaman on Arachnarok Spider**
+
+**Stat Block**
+```
+14/14 Webspinner Shaman on Arachnarok Spider
+```
+
+```
+[56f442]M     W     B     Sa    [-]
 *     14    6     4+    
 [e85545]Weapons[-]
 [c6c930]Spider-bows[-]
@@ -27,7 +27,5 @@
 1"     A:4    H:*    W:3+   R:-1   D:D3  
 [c6c930]Crooked Spears[-]
 1"     A:8    H:5+   W:4+   R:-    D:1   
-    ```
-    
-    
+```
     

@@ -1,20 +1,20 @@
 ---
-    layout: post
-    title:  "Basilisk"
-    date:   2020-12-05 00:00:00
-    source: Wahapedia
-    tags: [sons-of-behemat]
-    ---
-    
-    **Basilisk**
-    
-    **Stat Block**
-    ```
-    10/10 Basilisk
-    ```
-    
-    ```
-    [56f442]M     W     B     Sa    [-]
+layout: post
+title:  "Basilisk"
+date:   2020-12-05 00:00:00
+source: Wahapedia
+tags: [sons-of-behemat]
+---
+
+**Basilisk**
+
+**Stat Block**
+```
+10/10 Basilisk
+```
+
+```
+[56f442]M     W     B     Sa    [-]
 *     10    5     5+    
 [e85545]Weapons[-]
 [c6c930]Acidic Spittle[-]
@@ -23,7 +23,5 @@
 2"     A:1    H:3+   W:3+   R:*    D:3   
 [c6c930]Clutching Claws[-]
 1"     A:6    H:4+   W:4+   R:-1   D:1   
-    ```
-    
-    
+```
     

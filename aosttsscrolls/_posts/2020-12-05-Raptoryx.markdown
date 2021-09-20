@@ -1,25 +1,23 @@
 ---
-    layout: post
-    title:  "Raptoryx"
-    date:   2020-12-05 00:00:00
-    source: Wahapedia
-    tags: [slaves-to-darkness]
-    ---
-    
-    **Raptoryx**
-    
-    **Stat Block**
-    ```
-    2/2 Raptoryx
-    ```
-    
-    ```
-    [56f442]M     W     B     Sa    [-]
+layout: post
+title:  "Raptoryx"
+date:   2020-12-05 00:00:00
+source: Wahapedia
+tags: [slaves-to-darkness]
+---
+
+**Raptoryx**
+
+**Stat Block**
+```
+2/2 Raptoryx
+```
+
+```
+[56f442]M     W     B     Sa    [-]
 10"   2     6     -     
 [e85545]Weapons[-]
 [c6c930]Razor-sharp Beak and Talons[-]
 1"     A:2    H:3+   W:3+   R:-    D:1   
-    ```
-    
-    
+```
     

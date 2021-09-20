@@ -5,11 +5,12 @@ import os
 import re
 import inflect
 from multiprocessing import Process
+import yaml
 
 def get_nav_contents(label, page, navClass, exclusions):
     try:
         nav_element = page.find("div", attrs={"class": navClass}).find_next_sibling()
-        result = [link["href"] for link in nav_element.find_all("a") if
+        result = [link for link in nav_element.find_all("a") if
                   link["href"] not in exclusions and link.get_text() not in exclusions]
         return result
     except:
@@ -125,25 +126,23 @@ def extract_unit_page(faction_name, unit_name, scroll, outdir):
     unit_name = unit_name if unit_name else warscroll_name
 
     template = f"""---
-    layout: post
-    title:  "{warscroll_name}"
-    date:   {date}
-    source: Wahapedia
-    tags: [{faction_name}]
-    ---
-    
-    **{warscroll_name}**
-    
-    **Stat Block**
-    ```
-    {wound_count} {unit_name}
-    ```
-    
-    ```
-    {block}
-    ```
-    
-    
+layout: post
+title:  "{warscroll_name}"
+date:   {date}
+source: Wahapedia
+tags: [{faction_name}]
+---
+
+**{warscroll_name}**
+
+**Stat Block**
+```
+{wound_count} {unit_name}
+```
+
+```
+{block}
+```
     """
 
     with open(outname, "w") as out:
@@ -163,12 +162,17 @@ if __name__ == '__main__':
 
     factionLinks = get_nav_contents("Factions", indexPageTree, "NavBtn_Factions", exclude)
     all_processes = []
-    for faction in factionLinks:
+    all_factions = []
+    for factionA in factionLinks:
+        factionPrettyName = factionA.get_text()
+        faction = factionA["href"]
         factionName = faction.split('/')[-1]
+        all_factions.append({"name":factionPrettyName, "tag":factionName})
         print(f"Processing faction {factionName}")
         factionIndexPage = BeautifulSoup(requests.get(f"https://wahapedia.ru{faction}").text, features="html.parser")
         scrollLinks = get_nav_contents(factionName, factionIndexPage, "NavBtn_Datasheets", {"Warscrolls collated"})
-        for scroll in scrollLinks:
+        for scrollA in scrollLinks:
+            scroll = scrollA["href"]
             unitName = scroll.split('/')[-1]
             print(f"Processing scroll {unitName}")
             p = Process(target=extract_unit_page, args=(factionName, unitName, scroll, os.path.join(script_dir, "aosttsscrolls/_posts")))
@@ -176,3 +180,6 @@ if __name__ == '__main__':
             all_processes.append(p)
 
     [p.join() for p in all_processes]
+    tagFile = script_dir+"/aosttsscrolls/_data/levels.yml"
+    with open(tagFile, "w") as out:
+        yaml.dump(all_factions, out)

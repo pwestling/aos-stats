@@ -1,6 +1,6 @@
-- name: Cities Of Sigmar
+- name: Cities of Sigmar
   tag: cities-of-sigmar
-- name: Daughters Of Khaine
+- name: Daughters of Khaine
   tag: daughters-of-khaine
 - name: Fyreslayers
   tag: fyreslayers
@@ -8,7 +8,7 @@
   tag: idoneth-deepkin
 - name: Kharadron Overlords
   tag: kharadron-overlords
-- name: Lumineth Realm Lords
+- name: Lumineth Realm-lords
   tag: lumineth-realm-lords
 - name: Seraphon
   tag: seraphon
@@ -16,31 +16,35 @@
   tag: stormcast-eternals
 - name: Sylvaneth
   tag: sylvaneth
-- name: Beasts Of Chaos
+- name: Beasts of Chaos
   tag: beasts-of-chaos
-- name: Khorne
-  tag: khorne
-- name: Legion Of Azgorh
+- name: Blades of Khorne
+  tag: blades-of-khorne
+- name: Disciples of Tzeentch
+  tag: disciples-of-tzeentch
+- name: Hedonites of Slaanesh
+  tag: hedonites-of-slaanesh
+- name: Legion of Azgorh
   tag: legion-of-azgorh
-- name: Skaventide
-  tag: skaventide
-- name: Slaanesh
-  tag: slaanesh
-- name: Slaves To Darkness
+- name: Maggotkin of Nurgle
+  tag: maggotkin-of-nurgle
+- name: Skaven
+  tag: skaven
+- name: Slaves to Darkness
   tag: slaves-to-darkness
-- name: Tzeentch
-  tag: tzeentch
-- name: Flesh Eater Courts
+- name: Flesh-eater Courts
   tag: flesh-eater-courts
 - name: Nighthaunt
   tag: nighthaunt
 - name: Ossiarch Bonereapers
   tag: ossiarch-bonereapers
+- name: Soulblight Gravelords
+  tag: soulblight-gravelords
 - name: Gloomspite Gitz
   tag: gloomspite-gitz
 - name: Ogor Mawtribes
   tag: ogor-mawtribes
 - name: Orruk Warclans
   tag: orruk-warclans
-- name: Sons Of Behemat
+- name: Sons of Behemat
   tag: sons-of-behemat
